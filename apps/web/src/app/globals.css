@@ -38,4 +38,111 @@
   }
 }
 
+/* Nature Scientific Theme Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-40px) translateX(-10px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(-20px) translateX(5px) rotate(3deg);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) translateX(-15px) rotate(-10deg);
+  }
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(-100%) translateY(0);
+  }
+  100% {
+    transform: translateX(100vw) translateY(-50px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(16, 185, 129, 0.6);
+  }
+}
+
+/* Particle animations */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float 15s infinite ease-in-out;
+}
+
+.particle-slow {
+  animation: floatSlow 20s infinite ease-in-out;
+}
+
+.leaf {
+  position: absolute;
+  pointer-events: none;
+  animation: drift 25s linear infinite;
+}
+
+.water-drop {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float 10s infinite ease-in-out, shimmer 3s infinite;
+}
+
+/* Wave effect */
+.wave-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(16, 185, 129, 0.1) 50%,
+    transparent 100%
+  );
+  animation: wave 8s infinite linear;
+}
+
 /* Made with Bob */
