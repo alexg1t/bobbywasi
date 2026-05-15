@@ -1,0 +1,461 @@
+{
+  "id": "basic-006",
+  "metadata": {
+    "title": "Cristales de Sal",
+    "subtitle": "Crea hermosos cristales observando la evaporación",
+    "description": "Aprende sobre cristalización y evaporación creando tus propios cristales de sal. Este experimento demuestra cómo las moléculas se organizan en patrones geométricos perfectos.",
+    "difficulty": "basic",
+    "estimatedTime": "7 días (5 min/día)",
+    "ageRange": {
+      "min": 6,
+      "max": 12,
+      "recommended": 8
+    },
+    "category": "chemistry",
+    "tags": ["cristalización", "evaporación", "química", "paciencia", "observación"],
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15",
+    "author": "STEM Home Lab Team",
+    "language": "es"
+  },
+  "safety": {
+    "level": "green",
+    "requiresAdultSupervision": false,
+    "hazards": [],
+    "ppe": [],
+    "safetyNotes": [
+      "No ingerir la solución salina",
+      "Lavar las manos después del experimento",
+      "Mantener alejado de mascotas",
+      "Usar recipientes limpios"
+    ],
+    "emergencyProcedures": [
+      {
+        "situation": "Contacto con ojos",
+        "steps": [
+          "Lavar con abundante agua durante 15 minutos",
+          "Si persiste la irritación, consultar médico"
+        ]
+      }
+    ],
+    "adultGateQuestions": []
+  },
+  "materials": {
+    "required": [
+      {
+        "name": "Sal de mesa",
+        "quantity": "200g",
+        "unit": "gramos",
+        "specifications": "Sal común de cocina",
+        "alternatives": ["Sal marina"],
+        "estimatedCost": {
+          "amount": 1.5,
+          "currency": "USD"
+        },
+        "source": "supermarket",
+        "reusable": false,
+        "hazardous": false
+      },
+      {
+        "name": "Agua",
+        "quantity": "500ml",
+        "unit": "mililitros",
+        "specifications": "Agua del grifo o embotellada",
+        "alternatives": ["Agua destilada (mejores resultados)"],
+        "estimatedCost": {
+          "amount": 0.5,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": false,
+        "hazardous": false
+      },
+      {
+        "name": "Frasco de vidrio",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Frasco transparente de 500ml o más",
+        "alternatives": ["Vaso de vidrio grande"],
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Cuchara",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Para mezclar",
+        "alternatives": ["Palito de madera"],
+        "estimatedCost": {
+          "amount": 0.5,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Hilo de algodón",
+        "quantity": "30cm",
+        "unit": "centímetros",
+        "specifications": "Hilo grueso o cordón",
+        "alternatives": ["Limpiapipas", "Palito de madera"],
+        "estimatedCost": {
+          "amount": 0.5,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": false,
+        "hazardous": false
+      }
+    ],
+    "optional": [
+      {
+        "name": "Colorante alimentario",
+        "quantity": "3-5 gotas",
+        "unit": "gotas",
+        "purpose": "Para crear cristales de colores",
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Lupa",
+        "quantity": "1",
+        "unit": "unidad",
+        "purpose": "Para observar la estructura de los cristales",
+        "estimatedCost": {
+          "amount": 5.0,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tools": [
+      {
+        "name": "Olla pequeña",
+        "purpose": "Para calentar el agua (opcional)",
+        "required": false
+      },
+      {
+        "name": "Lápiz o palito",
+        "purpose": "Para sostener el hilo",
+        "required": true
+      }
+    ]
+  },
+  "instructions": {
+    "preparation": {
+      "steps": [
+        "Lavar bien el frasco de vidrio y dejarlo secar completamente",
+        "Cortar un trozo de hilo de aproximadamente 20-30 cm",
+        "Atar el hilo a un lápiz o palito que pueda apoyarse sobre la boca del frasco",
+        "Preparar el área de trabajo en un lugar donde no se mueva durante varios días"
+      ],
+      "estimatedTime": "10 minutos",
+      "safetyChecks": [
+        "Verificar que el frasco esté limpio y sin residuos",
+        "Asegurar que el área esté en un lugar estable"
+      ]
+    },
+    "execution": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Preparar la solución saturada",
+          "description": "Calienta 250ml de agua (o usa agua tibia del grifo). Añade sal poco a poco mientras revuelves, hasta que ya no se disuelva más sal y veas que queda en el fondo.",
+          "duration": "5 minutos",
+          "warnings": [
+            "Si calientas agua, pide ayuda a un adulto",
+            "No uses agua hirviendo"
+          ],
+          "tips": [
+            "Aproximadamente necesitarás 100g de sal por 250ml de agua",
+            "Sabrás que está saturada cuando la sal ya no se disuelva"
+          ],
+          "visualAid": "Imagen de sal disolviéndose en agua"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Añadir color (opcional)",
+          "description": "Si quieres cristales de colores, añade 3-5 gotas de colorante alimentario y mezcla bien.",
+          "duration": "1 minuto",
+          "warnings": [],
+          "tips": [
+            "Los colores oscuros funcionan mejor",
+            "Puedes hacer varios frascos con diferentes colores"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Verter en el frasco",
+          "description": "Vierte cuidadosamente la solución en el frasco de vidrio, dejando que se enfríe un poco primero. No viertas la sal que quedó sin disolver en el fondo.",
+          "duration": "2 minutos",
+          "warnings": [
+            "Ten cuidado con el agua caliente"
+          ],
+          "tips": [
+            "Llena el frasco hasta 3/4 de su capacidad",
+            "Deja enfriar 5 minutos antes de continuar"
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Colocar el hilo",
+          "description": "Sumerge el hilo en la solución, dejando que cuelgue sin tocar el fondo ni los lados del frasco. Apoya el lápiz sobre la boca del frasco para mantener el hilo en su lugar.",
+          "duration": "2 minutos",
+          "warnings": [],
+          "tips": [
+            "El hilo debe estar completamente sumergido",
+            "Asegúrate de que no toque las paredes del frasco"
+          ]
+        },
+        {
+          "stepNumber": 5,
+          "title": "Esperar y observar",
+          "description": "Coloca el frasco en un lugar tranquilo donde no se mueva. Observa cada día cómo se forman los cristales. El proceso tomará entre 3-7 días.",
+          "duration": "3-7 días",
+          "warnings": [
+            "No mover el frasco durante el proceso",
+            "No tocar el hilo"
+          ],
+          "tips": [
+            "Toma fotos cada día para documentar el crecimiento",
+            "Los cristales crecen más rápido en lugares cálidos",
+            "Cuanto más lenta sea la evaporación, más grandes serán los cristales"
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "title": "Retirar los cristales",
+          "description": "Cuando estés satisfecho con el tamaño de los cristales (después de 3-7 días), retira cuidadosamente el hilo del frasco y deja secar los cristales sobre papel absorbente.",
+          "duration": "5 minutos + 1 hora de secado",
+          "warnings": [
+            "Los cristales son frágiles, manéjalos con cuidado"
+          ],
+          "tips": [
+            "Puedes guardar los cristales en una bolsa hermética",
+            "Observa los cristales con una lupa para ver su estructura"
+          ]
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "No disolver suficiente sal",
+          "consequence": "Los cristales no se formarán o serán muy pequeños",
+          "prevention": "Asegúrate de que la solución esté saturada (que ya no se disuelva más sal)"
+        },
+        {
+          "mistake": "Mover el frasco durante el proceso",
+          "consequence": "Los cristales se romperán o no crecerán uniformemente",
+          "prevention": "Coloca el frasco en un lugar donde no se toque durante varios días"
+        },
+        {
+          "mistake": "Usar agua muy caliente",
+          "consequence": "Puede romper el frasco de vidrio",
+          "prevention": "Usa agua tibia o deja enfriar el agua caliente antes de verter"
+        }
+      ]
+    },
+    "cleanup": {
+      "steps": [
+        "Verter la solución sobrante por el desagüe con agua corriente",
+        "Lavar el frasco con agua y jabón",
+        "Secar bien todos los materiales",
+        "Guardar los cristales en un lugar seco"
+      ],
+      "wasteDisposal": [
+        {
+          "material": "Solución salina",
+          "method": "Verter por el desagüe con abundante agua",
+          "environmentalImpact": "Mínimo - la sal es biodegradable"
+        }
+      ],
+      "estimatedTime": "10 minutos"
+    }
+  },
+  "science": {
+    "concepts": [
+      {
+        "name": "Cristalización",
+        "description": "Proceso por el cual las moléculas de una sustancia se organizan en una estructura sólida y ordenada con forma geométrica definida.",
+        "gradeLevel": "elementary"
+      },
+      {
+        "name": "Evaporación",
+        "description": "Proceso por el cual un líquido se convierte en gas. Al evaporarse el agua, la sal queda atrás y forma cristales.",
+        "gradeLevel": "elementary"
+      },
+      {
+        "name": "Solución saturada",
+        "description": "Una solución que contiene la máxima cantidad de soluto (sal) que puede disolverse en el solvente (agua) a una temperatura dada.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Estructura cristalina",
+        "description": "Los cristales de sal tienen una estructura cúbica perfecta debido a cómo se organizan los átomos de sodio y cloro.",
+        "gradeLevel": "middle"
+      }
+    ],
+    "explanation": {
+      "simple": "Cuando el agua se evapora, las moléculas de sal que estaban disueltas se juntan y forman cristales con formas geométricas perfectas. Es como cuando construyes con bloques de LEGO - cada pieza encaja en un lugar específico.",
+      "detailed": "La sal de mesa (cloruro de sodio, NaCl) está compuesta por iones de sodio (Na+) y cloro (Cl-). En el agua, estos iones están separados y flotando libremente. A medida que el agua se evapora, los iones se acercan cada vez más hasta que comienzan a unirse en un patrón ordenado. Los iones de sodio y cloro se alternan en una estructura cúbica perfecta, creando los cristales que observamos. Este proceso se llama cristalización y es el mismo que forma cristales en la naturaleza, como las gemas y los minerales.",
+      "technical": "La cristalización de NaCl ocurre cuando la concentración de iones en solución excede el producto de solubilidad (Ksp). Los iones Na+ y Cl- se organizan en una red cristalina cúbica centrada en las caras (FCC) debido a las fuerzas electrostáticas de atracción entre iones de carga opuesta. La velocidad de cristalización está determinada por la tasa de evaporación del solvente y la temperatura. Una evaporación lenta permite la formación de cristales más grandes y mejor definidos, ya que los iones tienen más tiempo para encontrar sus posiciones óptimas en la red cristalina."
+    },
+    "realWorldApplications": [
+      "Producción de sal marina por evaporación de agua de mar",
+      "Fabricación de cristales para joyería y decoración",
+      "Purificación de sustancias químicas en laboratorios",
+      "Formación de minerales y gemas en la naturaleza",
+      "Producción de azúcar cristalizada",
+      "Fabricación de semiconductores y chips de computadora"
+    ],
+    "vocabulary": [
+      {
+        "term": "Cristal",
+        "definition": "Sólido con una estructura interna ordenada y una forma geométrica externa definida"
+      },
+      {
+        "term": "Evaporación",
+        "definition": "Cambio de estado de líquido a gas"
+      },
+      {
+        "term": "Solución",
+        "definition": "Mezcla homogénea de dos o más sustancias"
+      },
+      {
+        "term": "Saturación",
+        "definition": "Estado en el que no se puede disolver más soluto en un solvente"
+      },
+      {
+        "term": "Ion",
+        "definition": "Átomo o molécula con carga eléctrica"
+      }
+    ]
+  },
+  "educational": {
+    "learningObjectives": [
+      "Comprender el proceso de cristalización",
+      "Observar cómo la evaporación afecta las soluciones",
+      "Desarrollar paciencia y habilidades de observación a largo plazo",
+      "Aprender sobre estructuras moleculares ordenadas",
+      "Practicar el método científico mediante observación y documentación"
+    ],
+    "skills": [
+      "Observación detallada",
+      "Paciencia",
+      "Documentación científica",
+      "Seguimiento de procesos a largo plazo",
+      "Medición y comparación"
+    ],
+    "curriculum": {
+      "subjects": ["Química", "Ciencias Naturales", "Física"],
+      "grades": ["3-6"],
+      "standards": [
+        "Propiedades de la materia",
+        "Cambios de estado",
+        "Soluciones y mezclas",
+        "Método científico"
+      ]
+    },
+    "extensions": [
+      {
+        "title": "Cristales de diferentes sales",
+        "description": "Repite el experimento con sal de Epsom, azúcar o alumbre para comparar diferentes tipos de cristales",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Geoda casera",
+        "description": "Crea una geoda usando una cáscara de huevo y cristales de alumbre",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Jardín de cristales",
+        "description": "Crea un jardín de cristales de colores usando diferentes sales y colorantes",
+        "difficulty": "intermediate"
+      }
+    ],
+    "assessmentQuestions": [
+      {
+        "question": "¿Por qué se forman los cristales cuando el agua se evapora?",
+        "type": "open-ended",
+        "expectedAnswer": "Porque al evaporarse el agua, las moléculas de sal se juntan y se organizan en patrones ordenados"
+      },
+      {
+        "question": "¿Qué significa que una solución esté 'saturada'?",
+        "type": "open-ended",
+        "expectedAnswer": "Que contiene la máxima cantidad de sal que puede disolverse en el agua"
+      },
+      {
+        "question": "¿Por qué los cristales tienen formas geométricas perfectas?",
+        "type": "open-ended",
+        "expectedAnswer": "Porque las moléculas se organizan en patrones ordenados y repetitivos"
+      }
+    ]
+  },
+  "variations": [
+    {
+      "title": "Cristales de colores",
+      "description": "Usa diferentes colorantes alimentarios para crear cristales de varios colores",
+      "difficultyChange": "none",
+      "materialsNeeded": ["Colorantes alimentarios de diferentes colores"]
+    },
+    {
+      "title": "Cristales gigantes",
+      "description": "Usa un recipiente más grande y más tiempo para crear cristales más grandes",
+      "difficultyChange": "none",
+      "materialsNeeded": ["Recipiente grande", "Más sal y agua"]
+    },
+    {
+      "title": "Cristales de azúcar",
+      "description": "Repite el experimento usando azúcar en lugar de sal para hacer 'rock candy'",
+      "difficultyChange": "none",
+      "materialsNeeded": ["Azúcar en lugar de sal"]
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "No se forman cristales",
+      "possibleCauses": [
+        "La solución no está lo suficientemente saturada",
+        "El ambiente es demasiado húmedo",
+        "Se movió el frasco"
+      ],
+      "solutions": [
+        "Añadir más sal a la solución",
+        "Colocar el frasco en un lugar más seco y cálido",
+        "Empezar de nuevo sin mover el frasco"
+      ]
+    },
+    {
+      "problem": "Los cristales son muy pequeños",
+      "possibleCauses": [
+        "La evaporación fue demasiado rápida",
+        "No había suficiente sal en la solución"
+      ],
+      "solutions": [
+        "Cubrir parcialmente el frasco para ralentizar la evaporación",
+        "Usar una solución más saturada"
+      ]
+    }
+  ],
+  "resources": {
+    "videos": [],
+    "articles": [],
+    "books": [],
+    "websites": []
+  },
+  "metadata_extra": {
+    "featured": false,
+    "seasonal": false,
+    "indoor": true,
+    "outdoor": false,
+    "messy": false,
+    "noisy": false,
+    "adultParticipation": "optional"
+  }
+}

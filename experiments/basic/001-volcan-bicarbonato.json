@@ -1,0 +1,295 @@
+{
+  "id": "basic-001",
+  "slug": "volcan-bicarbonato",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Volcán de Bicarbonato",
+    "description": "Crea una erupción volcánica espectacular usando bicarbonato de sodio y vinagre. Aprende sobre reacciones químicas de forma segura y divertida.",
+    "level": "basic",
+    "safetyLevel": "green",
+    "duration": {
+      "preparation": 10,
+      "execution": 15,
+      "cleanup": 10,
+      "unit": "minutes"
+    },
+    "ageRange": {
+      "min": 6,
+      "max": 12,
+      "recommended": 8
+    },
+    "subjects": ["chemistry", "geology"],
+    "keywords": ["reacción química", "ácido-base", "dióxido de carbono", "volcán", "bicarbonato"]
+  },
+  "safety": {
+    "level": "green",
+    "hazards": [
+      {
+        "tag": "chemical_reaction",
+        "severity": "low",
+        "description": "Reacción química suave que produce dióxido de carbono y agua"
+      }
+    ],
+    "requiredPPE": [],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": [
+      "Realizar el experimento en un área que pueda limpiarse fácilmente",
+      "No ingerir los materiales",
+      "Lavarse las manos después del experimento"
+    ],
+    "emergencyProcedures": [
+      "Si el vinagre entra en contacto con los ojos, enjuagar con agua abundante",
+      "Si se ingiere accidentalmente, beber agua y consultar a un adulto"
+    ]
+  },
+  "materials": {
+    "home": [
+      {
+        "name": "Botella de plástico vacía",
+        "quantity": 1,
+        "unit": "piece",
+        "alternatives": ["Vaso de plástico grande", "Recipiente de yogurt"],
+        "notes": "De 500ml o más, limpia y seca"
+      },
+      {
+        "name": "Bandeja o plato hondo",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": "Para contener el desbordamiento"
+      },
+      {
+        "name": "Cuchara",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "supermarket": [
+      {
+        "name": "Bicarbonato de sodio",
+        "quantity": 3,
+        "unit": "tablespoon",
+        "estimatedCost": 1.50,
+        "currency": "USD"
+      },
+      {
+        "name": "Vinagre blanco",
+        "quantity": 0.5,
+        "unit": "cup",
+        "estimatedCost": 1.00,
+        "currency": "USD"
+      },
+      {
+        "name": "Colorante alimentario rojo",
+        "quantity": 5,
+        "unit": "drops",
+        "estimatedCost": 2.00,
+        "currency": "USD"
+      },
+      {
+        "name": "Detergente líquido",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "estimatedCost": 0.50,
+        "currency": "USD"
+      }
+    ],
+    "pharmacy": [],
+    "hardware": [],
+    "optional": [
+      {
+        "name": "Plastilina o arcilla",
+        "quantity": 1,
+        "unit": "piece",
+        "purpose": "Para decorar el volcán y hacerlo más realista"
+      },
+      {
+        "name": "Tierra o arena",
+        "quantity": 1,
+        "unit": "cup",
+        "purpose": "Para crear el paisaje alrededor del volcán"
+      }
+    ],
+    "totalEstimatedCost": 5.00,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {
+        "step": 1,
+        "action": "Preparar el área de trabajo",
+        "duration": 3,
+        "safetyNote": "Cubrir la superficie con periódico o plástico para facilitar la limpieza"
+      },
+      {
+        "step": 2,
+        "action": "Colocar la botella en el centro de la bandeja",
+        "duration": 1
+      },
+      {
+        "step": 3,
+        "action": "Reunir todos los materiales cerca del área de trabajo",
+        "duration": 2
+      },
+      {
+        "step": 4,
+        "action": "Opcional: Decorar la botella con plastilina para que parezca un volcán",
+        "duration": 4,
+        "safetyNote": "Asegurarse de dejar la boca de la botella libre"
+      }
+    ],
+    "execution": [
+      {
+        "step": 1,
+        "action": "Agregar bicarbonato de sodio a la botella",
+        "details": "Usar la cuchara para agregar 3 cucharadas de bicarbonato de sodio dentro de la botella",
+        "duration": 2,
+        "safetyNote": "Verter con cuidado para no derramar"
+      },
+      {
+        "step": 2,
+        "action": "Agregar detergente líquido",
+        "details": "Añadir 1 cucharada de detergente líquido a la botella. Esto creará más espuma en la erupción",
+        "duration": 1
+      },
+      {
+        "step": 3,
+        "action": "Agregar colorante alimentario",
+        "details": "Añadir 5-10 gotas de colorante rojo para simular la lava",
+        "duration": 1,
+        "safetyNote": "El colorante puede manchar, usar con cuidado"
+      },
+      {
+        "step": 4,
+        "action": "Preparar el vinagre",
+        "details": "Medir media taza de vinagre blanco en un recipiente aparte",
+        "duration": 1
+      },
+      {
+        "step": 5,
+        "action": "¡Crear la erupción!",
+        "details": "Verter rápidamente el vinagre dentro de la botella y observar la reacción. La mezcla comenzará a burbujear y desbordarse como lava",
+        "duration": 5,
+        "safetyNote": "Alejarse un poco después de verter para evitar salpicaduras",
+        "criticalStep": true
+      },
+      {
+        "step": 6,
+        "action": "Observar la reacción",
+        "details": "Observar cómo la mezcla burbujea y se desborda. Puedes repetir agregando más vinagre",
+        "duration": 5
+      }
+    ],
+    "cleanup": [
+      {
+        "step": 1,
+        "action": "Dejar que la reacción termine completamente",
+        "duration": 2
+      },
+      {
+        "step": 2,
+        "action": "Desechar la mezcla",
+        "details": "Verter la mezcla en el fregadero con agua corriente",
+        "duration": 3,
+        "safetyNote": "La mezcla es segura para el drenaje"
+      },
+      {
+        "step": 3,
+        "action": "Limpiar el área de trabajo",
+        "details": "Limpiar la bandeja, botella y superficie con agua y jabón",
+        "duration": 4
+      },
+      {
+        "step": 4,
+        "action": "Lavarse las manos",
+        "duration": 1,
+        "safetyNote": "Siempre lavarse las manos después de experimentos"
+      }
+    ]
+  },
+  "science": {
+    "principle": "Reacción Ácido-Base",
+    "explanation": "Cuando el vinagre (ácido acético) se mezcla con el bicarbonato de sodio (una base), ocurre una reacción química que produce dióxido de carbono (CO₂), agua y acetato de sodio. El gas CO₂ forma burbujas que crean la espuma y hacen que la mezcla se desborde, simulando una erupción volcánica. El detergente atrapa las burbujas de gas, creando más espuma y haciendo la erupción más espectacular.",
+    "concepts": [
+      {
+        "name": "Reacción Química",
+        "description": "Proceso en el que las sustancias (reactivos) se transforman en nuevas sustancias (productos)"
+      },
+      {
+        "name": "Ácido y Base",
+        "description": "El vinagre es un ácido y el bicarbonato es una base. Cuando se mezclan, se neutralizan mutuamente"
+      },
+      {
+        "name": "Dióxido de Carbono",
+        "description": "Gas que se produce en la reacción y crea las burbujas que vemos"
+      },
+      {
+        "name": "Efervescencia",
+        "description": "La formación rápida de burbujas de gas en un líquido"
+      }
+    ],
+    "realWorldApplications": [
+      "Volcanes reales: Los volcanes liberan gases y lava de manera similar",
+      "Polvo de hornear: Usa una reacción similar para hacer que los pasteles suban",
+      "Antiácidos: Usan bicarbonato para neutralizar el ácido del estómago",
+      "Extintores de incendios: Algunos usan CO₂ para apagar fuegos",
+      "Bebidas gaseosas: Contienen CO₂ disuelto que crea las burbujas"
+    ],
+    "furtherReading": [
+      {
+        "title": "¿Cómo funcionan los volcanes?",
+        "url": "https://www.nationalgeographic.com/science/article/volcanoes",
+        "type": "article"
+      },
+      {
+        "title": "Reacciones Ácido-Base para Niños",
+        "url": "https://www.youtube.com/watch?v=example",
+        "type": "video"
+      }
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Prueba con diferentes cantidades de bicarbonato y vinagre para ver cómo cambia la reacción",
+      "Usa diferentes colores de colorante para crear diferentes tipos de 'lava'",
+      "Agrega más detergente para crear más espuma",
+      "Construye un volcán más grande usando una botella de 2 litros",
+      "Crea múltiples volcanes pequeños y hazlos erupcionar en secuencia"
+    ],
+    "challenges": [
+      "¿Puedes hacer que la erupción dure más tiempo?",
+      "¿Qué pasa si usas agua en lugar de vinagre?",
+      "¿Puedes predecir cuánto vinagre necesitas para usar todo el bicarbonato?",
+      "¿Cómo podrías medir la cantidad de gas producido?",
+      "¿Qué otros ácidos caseros podrías usar? (jugo de limón, etc.)"
+    ],
+    "relatedExperiments": [
+      "basic-002-arcoiris-densidad",
+      "basic-004-tinta-invisible"
+    ]
+  },
+  "media": {
+    "thumbnail": "images/basic/volcan-bicarbonato-thumbnail.jpg",
+    "gallery": [
+      "images/basic/volcan-bicarbonato-materials.jpg",
+      "images/basic/volcan-bicarbonato-setup.jpg",
+      "images/basic/volcan-bicarbonato-eruption.jpg",
+      "images/basic/volcan-bicarbonato-result.jpg"
+    ]
+  },
+  "credits": {
+    "author": "IBM Bob",
+    "contributors": [],
+    "reviewedBy": ["Safety Team"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "id": "intermediate-001",
+  "metadata": {
+    "title": "Electroimán Casero",
+    "subtitle": "Crea un imán usando electricidad",
+    "description": "Construye tu propio electroimán y descubre cómo la electricidad puede crear campos magnéticos. Aprende los principios del electromagnetismo que se usan en motores, altavoces y muchos dispositivos modernos.",
+    "difficulty": "intermediate",
+    "estimatedTime": "30-45 minutos",
+    "ageRange": {
+      "min": 8,
+      "max": 14,
+      "recommended": 10
+    },
+    "category": "physics",
+    "tags": ["electromagnetismo", "electricidad", "magnetismo", "física", "circuitos"],
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15",
+    "author": "STEM Home Lab Team",
+    "language": "es"
+  },
+  "safety": {
+    "level": "yellow",
+    "requiresAdultSupervision": true,
+    "hazards": [
+      "electrical_shock",
+      "heat_generation"
+    ],
+    "ppe": [],
+    "safetyNotes": [
+      "Usar solo pilas de 1.5V o 9V - NUNCA conectar a la corriente eléctrica",
+      "El cable puede calentarse - no tocar después de conectar",
+      "Desconectar la pila cuando no estés usando el electroimán",
+      "No usar pilas dañadas o con fugas",
+      "Supervisión de un adulto requerida durante todo el experimento"
+    ],
+    "emergencyProcedures": [
+      {
+        "situation": "El cable se calienta demasiado",
+        "steps": [
+          "Desconectar inmediatamente la pila",
+          "Dejar enfriar el cable antes de tocarlo",
+          "Verificar que no haya cortocircuitos",
+          "Usar menos vueltas de cable o una pila de menor voltaje"
+        ]
+      },
+      {
+        "situation": "Quemadura leve por cable caliente",
+        "steps": [
+          "Enfriar la zona con agua fría durante 10-15 minutos",
+          "No aplicar hielo directamente",
+          "Si la quemadura es seria, buscar atención médica"
+        ]
+      }
+    ],
+    "adultGateQuestions": [
+      {
+        "question": "¿Por qué es importante usar solo pilas y nunca conectar a la corriente eléctrica?",
+        "correctAnswer": "Porque la corriente eléctrica de la casa es muy peligrosa y puede causar electrocución grave o muerte",
+        "explanation": "Las pilas proporcionan voltajes bajos y seguros (1.5V-9V), mientras que la corriente de la casa es de 110V-220V, suficiente para causar daño grave o muerte."
+      },
+      {
+        "question": "¿Qué debes hacer si el cable se calienta mucho?",
+        "correctAnswer": "Desconectar inmediatamente la pila y dejar enfriar",
+        "explanation": "El calentamiento excesivo indica que hay demasiada corriente fluyendo, lo que puede causar quemaduras o dañar los materiales."
+      }
+    ]
+  },
+  "materials": {
+    "required": [
+      {
+        "name": "Clavo de hierro grande",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Clavo de 10-15 cm de largo, sin recubrimiento",
+        "alternatives": ["Tornillo grande de hierro", "Varilla de hierro"],
+        "estimatedCost": {
+          "amount": 0.5,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Cable de cobre esmaltado",
+        "quantity": "2-3 metros",
+        "unit": "metros",
+        "specifications": "Cable delgado (calibre 22-26), con aislamiento esmaltado",
+        "alternatives": ["Cable telefónico", "Cable de auriculares viejos"],
+        "estimatedCost": {
+          "amount": 3.0,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Pila D (grande)",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Pila de 1.5V tipo D",
+        "alternatives": ["Pila de 9V (más potente)", "2 pilas AA en serie"],
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        },
+        "source": "supermarket",
+        "reusable": false,
+        "hazardous": false
+      },
+      {
+        "name": "Cinta adhesiva",
+        "quantity": "30cm",
+        "unit": "centímetros",
+        "specifications": "Cinta aislante o cinta adhesiva común",
+        "alternatives": ["Cinta de enmascarar"],
+        "estimatedCost": {
+          "amount": 1.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": false,
+        "hazardous": false
+      },
+      {
+        "name": "Clips metálicos",
+        "quantity": "10-20",
+        "unit": "unidades",
+        "specifications": "Clips de papel pequeños",
+        "alternatives": ["Tachuelas", "Alfileres", "Limaduras de hierro"],
+        "estimatedCost": {
+          "amount": 1.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": true,
+        "hazardous": false
+      }
+    ],
+    "optional": [
+      {
+        "name": "Papel de lija",
+        "quantity": "1 hoja",
+        "unit": "unidad",
+        "purpose": "Para quitar el esmalte de los extremos del cable",
+        "estimatedCost": {
+          "amount": 0.5,
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Brújula",
+        "quantity": "1",
+        "unit": "unidad",
+        "purpose": "Para visualizar el campo magnético",
+        "estimatedCost": {
+          "amount": 5.0,
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Multímetro",
+        "quantity": "1",
+        "unit": "unidad",
+        "purpose": "Para medir la corriente (avanzado)",
+        "estimatedCost": {
+          "amount": 15.0,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tools": [
+      {
+        "name": "Tijeras",
+        "purpose": "Para cortar el cable",
+        "required": true
+      },
+      {
+        "name": "Alicates",
+        "purpose": "Para pelar los extremos del cable (opcional)",
+        "required": false
+      }
+    ]
+  },
+  "instructions": {
+    "preparation": {
+      "steps": [
+        "Reunir todos los materiales en un área de trabajo despejada",
+        "Verificar que la pila esté en buen estado (sin fugas ni daños)",
+        "Tener clips u objetos metálicos pequeños listos para probar",
+        "Leer todas las instrucciones de seguridad con un adulto"
+      ],
+      "estimatedTime": "5 minutos",
+      "safetyChecks": [
+        "Confirmar que se usará SOLO una pila, nunca corriente eléctrica",
+        "Verificar que hay un adulto presente",
+        "Asegurar que el área de trabajo está seca"
+      ]
+    },
+    "execution": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Preparar el cable",
+          "description": "Corta aproximadamente 2 metros de cable de cobre. Deja unos 15-20 cm libres en cada extremo. Con papel de lija o un cuchillo (con ayuda de un adulto), raspa suavemente el esmalte de los últimos 3-4 cm de cada extremo del cable hasta que veas el cobre brillante.",
+          "duration": "5 minutos",
+          "warnings": [
+            "Pedir ayuda a un adulto para usar herramientas cortantes",
+            "No cortar demasiado profundo para no romper el cable"
+          ],
+          "tips": [
+            "El cable esmaltado tiene un recubrimiento que no conduce electricidad",
+            "Debes quitar este recubrimiento solo en los extremos para hacer las conexiones"
+          ],
+          "visualAid": "Imagen de cable con extremos pelados"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enrollar el cable alrededor del clavo",
+          "description": "Comenzando cerca de un extremo del clavo (dejando la punta libre), enrolla el cable firmemente alrededor del clavo. Haz entre 50-100 vueltas, manteniendo las espiras juntas y ordenadas. Deja el otro extremo del clavo también libre.",
+          "duration": "10 minutos",
+          "warnings": [
+            "No enrollar sobre los extremos pelados del cable"
+          ],
+          "tips": [
+            "Más vueltas = imán más fuerte",
+            "Mantén las vueltas apretadas y ordenadas",
+            "Enrolla siempre en la misma dirección",
+            "Puedes hacer varias capas de cable"
+          ],
+          "visualAid": "Diagrama de clavo con cable enrollado"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Asegurar el cable",
+          "description": "Usa cinta adhesiva para fijar el cable en su lugar, especialmente al principio y al final del enrollado. Asegúrate de que los extremos pelados del cable queden libres y accesibles.",
+          "duration": "2 minutos",
+          "warnings": [],
+          "tips": [
+            "No cubras los extremos pelados con cinta",
+            "La cinta ayuda a que el cable no se desenrolle"
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Conectar a la pila",
+          "description": "Conecta un extremo pelado del cable al polo positivo (+) de la pila y el otro extremo al polo negativo (-). Puedes usar cinta adhesiva para mantener los cables en contacto con los polos de la pila.",
+          "duration": "3 minutos",
+          "warnings": [
+            "El cable puede calentarse - no mantener conectado por más de 30 segundos seguidos",
+            "Si el cable se calienta mucho, desconectar inmediatamente"
+          ],
+          "tips": [
+            "Asegúrate de que hay buen contacto entre el cable y los polos",
+            "Puedes hacer conexiones temporales para probar"
+          ],
+          "visualAid": "Diagrama de conexión a la pila"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Probar el electroimán",
+          "description": "Con la pila conectada, acerca la punta del clavo a los clips metálicos. ¡Deberían ser atraídos por el electroimán! Cuenta cuántos clips puedes levantar. Luego desconecta la pila y observa cómo los clips caen.",
+          "duration": "5 minutos",
+          "warnings": [
+            "No mantener conectado por más de 30 segundos",
+            "Desconectar entre pruebas para evitar sobrecalentamiento"
+          ],
+          "tips": [
+            "Prueba con diferentes objetos metálicos",
+            "Observa que solo funciona cuando está conectado a la pila",
+            "Intenta levantar una cadena de clips"
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "title": "Experimentar y observar",
+          "description": "Realiza diferentes pruebas: ¿Qué pasa si inviertes las conexiones de la pila? ¿Puedes levantar más clips con más vueltas de cable? ¿Funciona con objetos de aluminio o cobre?",
+          "duration": "10 minutos",
+          "warnings": [
+            "Recordar desconectar entre pruebas"
+          ],
+          "tips": [
+            "Documenta tus observaciones",
+            "Compara la fuerza con diferentes números de vueltas",
+            "Prueba con una brújula para ver el campo magnético"
+          ]
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "No quitar el esmalte de los extremos del cable",
+          "consequence": "El circuito no se completa y el electroimán no funciona",
+          "prevention": "Asegurarse de raspar bien el esmalte hasta ver el cobre brillante"
+        },
+        {
+          "mistake": "Dejar conectado demasiado tiempo",
+          "consequence": "El cable se calienta y puede quemar o agotar la pila rápidamente",
+          "prevention": "Conectar solo por 20-30 segundos, desconectar entre pruebas"
+        },
+        {
+          "mistake": "Usar objetos no magnéticos",
+          "consequence": "El electroimán no los atrae",
+          "prevention": "Usar solo objetos de hierro o acero (no aluminio, cobre o plástico)"
+        }
+      ]
+    },
+    "cleanup": {
+      "steps": [
+        "Desconectar completamente la pila",
+        "Dejar enfriar el cable si está caliente",
+        "Guardar el electroimán para futuros experimentos",
+        "Recoger todos los clips y materiales",
+        "Guardar la pila en un lugar seco"
+      ],
+      "wasteDisposal": [
+        {
+          "material": "Pila agotada",
+          "method": "Llevar a un punto de reciclaje de pilas",
+          "environmentalImpact": "Las pilas contienen metales pesados y deben reciclarse adecuadamente"
+        }
+      ],
+      "estimatedTime": "5 minutos"
+    }
+  },
+  "science": {
+    "concepts": [
+      {
+        "name": "Electromagnetismo",
+        "description": "Relación entre electricidad y magnetismo. Una corriente eléctrica crea un campo magnético a su alrededor.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Campo magnético",
+        "description": "Región del espacio donde se manifiestan fuerzas magnéticas. Los campos magnéticos tienen polos norte y sur.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Corriente eléctrica",
+        "description": "Flujo de electrones a través de un conductor. En este caso, fluye desde la pila a través del cable.",
+        "gradeLevel": "elementary"
+      },
+      {
+        "name": "Materiales ferromagnéticos",
+        "description": "Materiales como el hierro que pueden ser magnetizados y son atraídos por imanes.",
+        "gradeLevel": "middle"
+      }
+    ],
+    "explanation": {
+      "simple": "Cuando la electricidad fluye por un cable, crea un campo magnético invisible a su alrededor. Al enrollar el cable muchas veces alrededor de un clavo de hierro, sumamos todos esos pequeños campos magnéticos para crear un imán fuerte. Cuando desconectamos la pila, la electricidad deja de fluir y el magnetismo desaparece.",
+      "detailed": "Un electroimán funciona gracias a la ley de Ampère: una corriente eléctrica genera un campo magnético circular alrededor del conductor. Al enrollar el cable en forma de bobina (solenoide), los campos magnéticos de cada vuelta se suman, creando un campo magnético más fuerte en el centro. El clavo de hierro actúa como un núcleo ferromagnético que concentra y amplifica este campo magnético. Los dominios magnéticos del hierro se alinean con el campo externo, haciendo el imán mucho más fuerte. Cuando se interrumpe la corriente, los dominios vuelven a su estado desordenado y el magnetismo desaparece.",
+      "technical": "El electroimán es una aplicación directa de la ley de Ampère (∇×B = μ₀J), que establece que el campo magnético (B) alrededor de un conductor es proporcional a la corriente (J) que fluye por él. En un solenoide, el campo magnético en el interior es B = μ₀nI, donde n es el número de vueltas por unidad de longitud e I es la corriente. El núcleo de hierro aumenta la permeabilidad magnética (μ) del sistema, amplificando el campo por un factor de cientos o miles. La magnetización del núcleo sigue la curva de histéresis del material, y en hierro dulce, la remanencia es baja, por lo que el magnetismo desaparece casi completamente al cesar la corriente."
+    },
+    "realWorldApplications": [
+      "Motores eléctricos en electrodomésticos y vehículos",
+      "Altavoces y auriculares",
+      "Grúas electromagnéticas en chatarrerías",
+      "Timbres y zumbadores",
+      "Discos duros de computadoras",
+      "Resonancia magnética (MRI) en hospitales",
+      "Trenes de levitación magnética (maglev)",
+      "Cerraduras electromagnéticas",
+      "Relés y solenoides en sistemas de control"
+    ],
+    "vocabulary": [
+      {
+        "term": "Electroimán",
+        "definition": "Imán que funciona solo cuando pasa corriente eléctrica por él"
+      },
+      {
+        "term": "Solenoide",
+        "definition": "Bobina de cable enrollado que crea un campo magnético cuando pasa corriente"
+      },
+      {
+        "term": "Núcleo",
+        "definition": "Material (como el clavo de hierro) colocado dentro de la bobina para amplificar el campo magnético"
+      },
+      {
+        "term": "Circuito",
+        "definition": "Camino cerrado por el que fluye la corriente eléctrica"
+      },
+      {
+        "term": "Polo magnético",
+        "definition": "Extremos de un imán donde la fuerza magnética es más fuerte (norte y sur)"
+      }
+    ]
+  },
+  "educational": {
+    "learningObjectives": [
+      "Comprender la relación entre electricidad y magnetismo",
+      "Aprender a construir un circuito eléctrico simple",
+      "Observar cómo la corriente eléctrica genera campos magnéticos",
+      "Entender la diferencia entre imanes permanentes y electroimanes",
+      "Desarrollar habilidades de construcción y experimentación"
+    ],
+    "skills": [
+      "Construcción de circuitos",
+      "Manipulación de herramientas",
+      "Observación científica",
+      "Resolución de problemas",
+      "Pensamiento crítico",
+      "Seguridad eléctrica"
+    ],
+    "curriculum": {
+      "subjects": ["Física", "Electricidad", "Magnetismo", "Tecnología"],
+      "grades": ["5-8"],
+      "standards": [
+        "Electricidad y magnetismo",
+        "Circuitos eléctricos",
+        "Fuerzas y campos",
+        "Aplicaciones tecnológicas"
+      ]
+    },
+    "extensions": [
+      {
+        "title": "Medir la fuerza del electroimán",
+        "description": "Usa una balanza para medir cuánto peso puede levantar tu electroimán con diferentes números de vueltas",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Motor eléctrico simple",
+        "description": "Usa tu electroimán como base para construir un motor eléctrico simple",
+        "difficulty": "advanced"
+      },
+      {
+        "title": "Visualizar el campo magnético",
+        "description": "Usa limaduras de hierro sobre papel para visualizar las líneas del campo magnético",
+        "difficulty": "intermediate"
+      }
+    ],
+    "assessmentQuestions": [
+      {
+        "question": "¿Por qué el electroimán solo funciona cuando está conectado a la pila?",
+        "type": "open-ended",
+        "expectedAnswer": "Porque necesita que fluya corriente eléctrica para crear el campo magnético"
+      },
+      {
+        "question": "¿Qué pasaría si usaras un clavo de aluminio en lugar de hierro?",
+        "type": "open-ended",
+        "expectedAnswer": "No funcionaría bien porque el aluminio no es ferromagnético y no amplifica el campo magnético"
+      },
+      {
+        "question": "¿Cómo podrías hacer tu electroimán más fuerte?",
+        "type": "open-ended",
+        "expectedAnswer": "Añadiendo más vueltas de cable, usando una pila de mayor voltaje, o usando un núcleo de hierro más grande"
+      }
+    ]
+  },
+  "variations": [
+    {
+      "title": "Electroimán de alta potencia",
+      "description": "Usa una pila de 9V y más vueltas de cable para crear un electroimán más potente",
+      "difficultyChange": "harder",
+      "materialsNeeded": ["Pila de 9V", "Más cable"]
+    },
+    {
+      "title": "Electroimán con interruptor",
+      "description": "Añade un interruptor al circuito para encender y apagar el electroimán fácilmente",
+      "difficultyChange": "harder",
+      "materialsNeeded": ["Interruptor", "Cable adicional"]
+    },
+    {
+      "title": "Comparación de núcleos",
+      "description": "Prueba el electroimán con diferentes núcleos (hierro, acero, aluminio) y compara los resultados",
+      "difficultyChange": "none",
+      "materialsNeeded": ["Diferentes tipos de clavos o varillas"]
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "El electroimán no atrae nada",
+      "possibleCauses": [
+        "Los extremos del cable no están bien pelados",
+        "Mala conexión con la pila",
+        "Pila agotada",
+        "Muy pocas vueltas de cable"
+      ],
+      "solutions": [
+        "Verificar que el cobre esté expuesto en los extremos",
+        "Asegurar buen contacto con los polos de la pila",
+        "Probar con una pila nueva",
+        "Añadir más vueltas de cable"
+      ]
+    },
+    {
+      "problem": "El cable se calienta mucho",
+      "possibleCauses": [
+        "Cortocircuito en el cable",
+        "Cable muy delgado para la corriente",
+        "Conexión mantenida demasiado tiempo"
+      ],
+      "solutions": [
+        "Verificar que no haya cables pelados tocándose",
+        "Usar cable más grueso",
+        "Conectar solo por períodos cortos (20-30 segundos)"
+      ]
+    },
+    {
+      "problem": "El electroimán es muy débil",
+      "possibleCauses": [
+        "Pocas vueltas de cable",
+        "Pila con poca carga",
+        "Núcleo no ferromagnético"
+      ],
+      "solutions": [
+        "Añadir más vueltas de cable",
+        "Usar una pila nueva o de mayor voltaje",
+        "Asegurar que el clavo sea de hierro"
+      ]
+    }
+  ],
+  "resources": {
+    "videos": [],
+    "articles": [],
+    "books": [],
+    "websites": []
+  },
+  "metadata_extra": {
+    "featured": true,
+    "seasonal": false,
+    "indoor": true,
+    "outdoor": false,
+    "messy": false,
+    "noisy": false,
+    "adultParticipation": "required"
+  }
+}

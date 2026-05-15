@@ -1,0 +1,106 @@
+{
+  "id": "basic-003",
+  "slug": "huevo-flotante",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Huevo Flotante",
+    "description": "Haz flotar un huevo en agua salada y descubre cómo la densidad afecta la flotación. Un experimento simple pero sorprendente.",
+    "level": "basic",
+    "safetyLevel": "green",
+    "duration": {"preparation": 5, "execution": 10, "cleanup": 5, "unit": "minutes"},
+    "ageRange": {"min": 6, "max": 10, "recommended": 7},
+    "subjects": ["physics", "chemistry"],
+    "keywords": ["densidad", "flotación", "sal", "agua salada"]
+  },
+  "safety": {
+    "level": "green",
+    "hazards": [],
+    "requiredPPE": [],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": ["No ingerir el agua salada", "Manejar el huevo con cuidado"],
+    "emergencyProcedures": ["Si se rompe el huevo, limpiar inmediatamente"]
+  },
+  "materials": {
+    "home": [
+      {"name": "Huevo crudo", "quantity": 1, "unit": "piece"},
+      {"name": "Vaso transparente grande", "quantity": 1, "unit": "piece"},
+      {"name": "Cuchara", "quantity": 1, "unit": "piece"}
+    ],
+    "supermarket": [
+      {"name": "Sal de mesa", "quantity": 0.5, "unit": "cup", "estimatedCost": 0.50, "currency": "USD"},
+      {"name": "Agua", "quantity": 2, "unit": "cups", "estimatedCost": 0.00, "currency": "USD"}
+    ],
+    "pharmacy": [],
+    "hardware": [],
+    "optional": [],
+    "totalEstimatedCost": 0.50,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {"step": 1, "action": "Llenar el vaso con agua hasta 3/4 de su capacidad", "duration": 2},
+      {"step": 2, "action": "Colocar el huevo en el agua para verificar que se hunde", "duration": 1},
+      {"step": 3, "action": "Sacar el huevo cuidadosamente", "duration": 2}
+    ],
+    "execution": [
+      {"step": 1, "action": "Agregar sal al agua", "details": "Agregar 3-4 cucharadas de sal y revolver bien", "duration": 3},
+      {"step": 2, "action": "Colocar el huevo nuevamente", "details": "Observar cómo el huevo ahora flota", "duration": 2},
+      {"step": 3, "action": "Experimentar con más sal", "details": "Agregar más sal para ver cómo el huevo flota más alto", "duration": 5}
+    ],
+    "cleanup": [
+      {"step": 1, "action": "Desechar el agua salada", "duration": 2},
+      {"step": 2, "action": "Lavar el vaso y la cuchara", "duration": 2},
+      {"step": 3, "action": "Lavarse las manos", "duration": 1}
+    ]
+  },
+  "science": {
+    "principle": "Densidad y Flotación",
+    "explanation": "El agua salada es más densa que el agua dulce. Cuando agregas sal al agua, aumentas su densidad. Si la densidad del agua salada es mayor que la densidad del huevo, el huevo flotará. Este es el mismo principio por el cual es más fácil flotar en el mar que en una piscina.",
+    "concepts": [
+      {"name": "Densidad", "description": "Cantidad de masa en un volumen dado"},
+      {"name": "Flotación", "description": "Capacidad de un objeto de mantenerse sobre un líquido"},
+      {"name": "Solución", "description": "Mezcla homogénea de dos o más sustancias"}
+    ],
+    "realWorldApplications": [
+      "Flotación en el Mar Muerto",
+      "Barcos y submarinos",
+      "Icebergs flotando en el océano",
+      "Salvavidas y chalecos flotadores"
+    ],
+    "furtherReading": [
+      {"title": "¿Por qué flotamos en el Mar Muerto?", "url": "https://example.com/mar-muerto", "type": "article"}
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Probar con diferentes cantidades de sal",
+      "Usar otros objetos pequeños",
+      "Crear capas de agua con diferentes concentraciones de sal"
+    ],
+    "challenges": [
+      "¿Cuánta sal necesitas para hacer flotar el huevo?",
+      "¿Qué otros líquidos podrían hacer flotar el huevo?"
+    ],
+    "relatedExperiments": ["basic-002-arcoiris-densidad", "basic-001-volcan-bicarbonato"]
+  },
+  "media": {
+    "thumbnail": "images/basic/huevo-flotante-thumbnail.jpg",
+    "gallery": ["images/basic/huevo-flotante-materials.jpg", "images/basic/huevo-flotante-result.jpg"]
+  },
+  "credits": {
+    "author": "IBM Bob",
+    "contributors": [],
+    "reviewedBy": ["Safety Team"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}

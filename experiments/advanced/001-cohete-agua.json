@@ -1,0 +1,650 @@
+{
+  "id": "advanced-001",
+  "metadata": {
+    "title": "Cohete de Agua",
+    "subtitle": "Construye y lanza un cohete propulsado por presión de aire",
+    "description": "Construye un cohete usando una botella de plástico y lánzalo usando presión de aire y agua. Aprende sobre propulsión, tercera ley de Newton, y aerodinámica mientras experimentas con un proyecto emocionante de ingeniería.",
+    "difficulty": "advanced",
+    "estimatedTime": "60-90 minutos",
+    "ageRange": {
+      "min": 10,
+      "max": 16,
+      "recommended": 12
+    },
+    "category": "physics",
+    "tags": ["propulsión", "presión", "aerodinámica", "física", "ingeniería", "Newton"],
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15",
+    "author": "STEM Home Lab Team",
+    "language": "es"
+  },
+  "safety": {
+    "level": "red",
+    "requiresAdultSupervision": true,
+    "hazards": [
+      "projectile",
+      "pressure",
+      "impact"
+    ],
+    "ppe": [
+      "safety_goggles"
+    ],
+    "safetyNotes": [
+      "OBLIGATORIO: Supervisión adulta en todo momento",
+      "OBLIGATORIO: Usar gafas de seguridad",
+      "Lanzar SOLO en áreas abiertas, lejos de personas, animales, edificios y ventanas",
+      "Mantener distancia de seguridad de al menos 10 metros durante el lanzamiento",
+      "No apuntar el cohete hacia personas, animales o propiedades",
+      "No usar presiones superiores a 60 PSI (4 bar)",
+      "Verificar que la botella no tenga grietas o daños antes de cada lanzamiento",
+      "No modificar el diseño para aumentar la presión más allá de lo recomendado",
+      "Esperar a que el cohete aterrice completamente antes de acercarse"
+    ],
+    "emergencyProcedures": [
+      {
+        "situation": "Lesión por impacto del cohete",
+        "steps": [
+          "Evaluar la gravedad de la lesión",
+          "Aplicar primeros auxilios básicos si es menor",
+          "Si hay sangrado, aplicar presión con un paño limpio",
+          "Si la lesión es seria, buscar atención médica inmediata",
+          "No continuar con el experimento"
+        ]
+      },
+      {
+        "situation": "Explosión de la botella por sobrepresión",
+        "steps": [
+          "Verificar que nadie haya resultado herido",
+          "Recoger todos los fragmentos con cuidado",
+          "Revisar el equipo de bombeo para asegurar que no exceda la presión recomendada",
+          "No intentar nuevamente sin revisar el procedimiento de seguridad"
+        ]
+      }
+    ],
+    "adultGateQuestions": [
+      {
+        "question": "¿Por qué es obligatorio usar gafas de seguridad en este experimento?",
+        "correctAnswer": "Para proteger los ojos de posibles fragmentos si la botella explota o del impacto del cohete",
+        "explanation": "Las gafas de seguridad protegen contra fragmentos de plástico en caso de fallo de la botella y contra salpicaduras de agua a presión."
+      },
+      {
+        "question": "¿Cuál es la distancia mínima de seguridad que deben mantener los espectadores?",
+        "correctAnswer": "Al menos 10 metros",
+        "explanation": "Esta distancia asegura que las personas estén fuera del alcance de fragmentos o del cohete en caso de trayectoria impredecible."
+      },
+      {
+        "question": "¿Qué debes hacer si la botella tiene grietas o daños?",
+        "correctAnswer": "No usarla y conseguir una botella nueva",
+        "explanation": "Una botella dañada puede explotar bajo presión, causando lesiones graves. Siempre usar botellas en perfecto estado."
+      },
+      {
+        "question": "¿Hacia dónde NUNCA debes apuntar el cohete?",
+        "correctAnswer": "Hacia personas, animales, edificios o ventanas",
+        "explanation": "El cohete puede causar lesiones o daños materiales. Siempre lanzar hacia un área abierta y despejada."
+      }
+    ]
+  },
+  "materials": {
+    "required": [
+      {
+        "name": "Botella de plástico PET",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Botella de 2 litros, sin daños ni grietas",
+        "alternatives": ["Botella de 1.5 litros"],
+        "estimatedCost": {
+          "amount": 1.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Cartón o cartulina",
+        "quantity": "2-3 hojas",
+        "unit": "hojas",
+        "specifications": "Cartón rígido para las aletas",
+        "alternatives": ["Plástico rígido", "Foam board"],
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": false,
+        "hazardous": false
+      },
+      {
+        "name": "Cinta adhesiva resistente",
+        "quantity": "1 rollo",
+        "unit": "rollo",
+        "specifications": "Cinta de embalar o duct tape",
+        "alternatives": ["Cinta aislante"],
+        "estimatedCost": {
+          "amount": 3.0,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Corcho o tapón de goma",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Debe ajustar firmemente en la boca de la botella",
+        "alternatives": ["Tapón de goma con válvula"],
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Válvula de bicicleta",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Válvula Presta o Schrader",
+        "alternatives": ["Kit de lanzamiento de cohetes de agua comercial"],
+        "estimatedCost": {
+          "amount": 3.0,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Bomba de bicicleta",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Con manómetro para medir presión",
+        "alternatives": ["Compresor de aire con regulador"],
+        "estimatedCost": {
+          "amount": 15.0,
+          "currency": "USD"
+        },
+        "source": "hardware_store",
+        "reusable": true,
+        "hazardous": false
+      },
+      {
+        "name": "Agua",
+        "quantity": "500-700ml",
+        "unit": "mililitros",
+        "specifications": "Agua del grifo",
+        "alternatives": [],
+        "estimatedCost": {
+          "amount": 0.0,
+          "currency": "USD"
+        },
+        "source": "home",
+        "reusable": false,
+        "hazardous": false
+      }
+    ],
+    "optional": [
+      {
+        "name": "Plastilina o arcilla",
+        "quantity": "50g",
+        "unit": "gramos",
+        "purpose": "Para añadir peso en la punta y mejorar la estabilidad",
+        "estimatedCost": {
+          "amount": 2.0,
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Pintura en aerosol",
+        "quantity": "1 lata",
+        "unit": "unidad",
+        "purpose": "Para decorar el cohete",
+        "estimatedCost": {
+          "amount": 5.0,
+          "currency": "USD"
+        }
+      },
+      {
+        "name": "Paracaídas pequeño",
+        "quantity": "1",
+        "unit": "unidad",
+        "purpose": "Para un descenso controlado (avanzado)",
+        "estimatedCost": {
+          "amount": 5.0,
+          "currency": "USD"
+        }
+      }
+    ],
+    "tools": [
+      {
+        "name": "Tijeras",
+        "purpose": "Para cortar cartón y cinta",
+        "required": true
+      },
+      {
+        "name": "Regla",
+        "purpose": "Para medir y marcar las aletas",
+        "required": true
+      },
+      {
+        "name": "Taladro",
+        "purpose": "Para hacer agujero en el corcho (con supervisión adulta)",
+        "required": true
+      },
+      {
+        "name": "Gafas de seguridad",
+        "purpose": "Protección ocular OBLIGATORIA",
+        "required": true
+      }
+    ]
+  },
+  "instructions": {
+    "preparation": {
+      "steps": [
+        "Leer todas las instrucciones de seguridad con un adulto",
+        "Identificar un área abierta y segura para el lanzamiento (parque, campo deportivo)",
+        "Verificar que la botella esté en perfecto estado, sin grietas",
+        "Reunir todos los materiales y herramientas",
+        "Asegurar que todos los participantes tengan gafas de seguridad"
+      ],
+      "estimatedTime": "10 minutos",
+      "safetyChecks": [
+        "Confirmar área de lanzamiento segura y despejada",
+        "Verificar que hay un adulto presente",
+        "Comprobar que todos tienen gafas de seguridad",
+        "Inspeccionar la botella para detectar daños",
+        "Verificar que la bomba tiene manómetro funcional"
+      ]
+    },
+    "execution": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Diseñar y cortar las aletas",
+          "description": "Dibuja 3-4 aletas en el cartón. Cada aleta debe tener forma triangular o trapezoidal, de aproximadamente 15-20 cm de alto. Córtalas cuidadosamente con tijeras.",
+          "duration": "15 minutos",
+          "warnings": [
+            "Usar tijeras con cuidado"
+          ],
+          "tips": [
+            "Las aletas deben ser simétricas para un vuelo estable",
+            "Aletas más grandes = más estabilidad pero menos altura",
+            "Usa una plantilla para que todas sean iguales"
+          ],
+          "visualAid": "Diagrama de diseño de aletas"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pegar las aletas a la botella",
+          "description": "Pega las aletas equidistantes alrededor de la base de la botella usando cinta adhesiva resistente. Asegúrate de que estén firmemente sujetas y alineadas verticalmente.",
+          "duration": "15 minutos",
+          "warnings": [
+            "Las aletas deben estar muy bien pegadas para soportar el lanzamiento"
+          ],
+          "tips": [
+            "Usa mucha cinta adhesiva",
+            "Verifica que las aletas estén perpendiculares a la botella",
+            "Refuerza las uniones con cinta adicional"
+          ],
+          "visualAid": "Foto de aletas pegadas"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Crear la punta del cohete (opcional)",
+          "description": "Puedes hacer una punta aerodinámica usando cartón enrollado en forma de cono. Pégala en la parte superior de la botella. Esto mejora la aerodinámica y la apariencia.",
+          "duration": "10 minutos",
+          "warnings": [],
+          "tips": [
+            "La punta debe ser ligera",
+            "Puedes añadir un poco de plastilina dentro para peso",
+            "Asegúrate de que esté bien pegada"
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Preparar el sistema de lanzamiento",
+          "description": "Con ayuda de un adulto, perfora un agujero en el centro del corcho del tamaño de la válvula de bicicleta. Inserta la válvula a través del corcho de modo que el extremo roscado sobresalga por un lado.",
+          "duration": "10 minutos",
+          "warnings": [
+            "REQUIERE SUPERVISIÓN ADULTA para usar el taladro",
+            "Usar gafas de seguridad al perforar"
+          ],
+          "tips": [
+            "El agujero debe ser justo del tamaño de la válvula",
+            "La válvula debe quedar bien ajustada",
+            "Puedes sellar con silicona si es necesario"
+          ],
+          "visualAid": "Diagrama del corcho con válvula"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Llenar el cohete con agua",
+          "description": "Llena la botella con agua hasta aproximadamente 1/3 de su capacidad (300-500ml para una botella de 2L). No llenes más de la mitad.",
+          "duration": "2 minutos",
+          "warnings": [
+            "Más agua no significa más altura - hay un punto óptimo"
+          ],
+          "tips": [
+            "Experimenta con diferentes cantidades de agua",
+            "Generalmente 1/3 de la capacidad es óptimo",
+            "Marca el nivel para repetir lanzamientos exitosos"
+          ]
+        },
+        {
+          "stepNumber": 6,
+          "title": "Preparar para el lanzamiento",
+          "description": "Lleva el cohete al área de lanzamiento. Inserta firmemente el corcho con la válvula en la boca de la botella. Coloca el cohete en posición vertical (puedes usar un soporte o que alguien lo sostenga brevemente).",
+          "duration": "5 minutos",
+          "warnings": [
+            "Asegurar que el área esté despejada",
+            "Todos deben usar gafas de seguridad",
+            "Mantener distancia de seguridad"
+          ],
+          "tips": [
+            "El corcho debe entrar con fuerza pero no demasiado",
+            "Apunta el cohete ligeramente hacia arriba, no completamente vertical",
+            "Verifica la dirección del viento"
+          ]
+        },
+        {
+          "stepNumber": 7,
+          "title": "Bombear aire y lanzar",
+          "description": "Conecta la bomba a la válvula. Todos deben alejarse excepto la persona que bombea. Bombea aire mientras observas el manómetro. Cuando alcances 40-60 PSI, el cohete se lanzará automáticamente cuando la presión supere la resistencia del corcho. ¡Aléjate rápidamente después de bombear!",
+          "duration": "5 minutos",
+          "warnings": [
+            "NO EXCEDER 60 PSI",
+            "Mantener distancia de seguridad de 10 metros",
+            "No mirar directamente al cohete durante el bombeo",
+            "Alejarse inmediatamente después de bombear"
+          ],
+          "tips": [
+            "Cuenta las bombadas para repetir lanzamientos",
+            "Empieza con presiones bajas (30-40 PSI) para probar",
+            "El cohete se lanzará cuando la presión supere la fricción del corcho",
+            "Filma el lanzamiento para analizar después"
+          ],
+          "visualAid": "Diagrama de posiciones de seguridad"
+        },
+        {
+          "stepNumber": 8,
+          "title": "Observar y medir",
+          "description": "Observa el vuelo del cohete. Mide la distancia horizontal o estima la altura alcanzada. Espera a que aterrice completamente antes de acercarte. Recoge el cohete y prepáralo para otro lanzamiento.",
+          "duration": "10 minutos",
+          "warnings": [
+            "No acercarse hasta que el cohete haya aterrizado completamente",
+            "Cuidado con el cohete al caer"
+          ],
+          "tips": [
+            "Usa referencias visuales para estimar altura",
+            "Toma notas de cada lanzamiento",
+            "Experimenta con diferentes cantidades de agua y presión",
+            "Compara resultados"
+          ]
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Llenar la botella con demasiada agua",
+          "consequence": "El cohete no alcanza mucha altura porque hay poco espacio para el aire comprimido",
+          "prevention": "Usar solo 1/3 de la capacidad de la botella"
+        },
+        {
+          "mistake": "Aletas mal pegadas o asimétricas",
+          "consequence": "El cohete gira o vuela de forma inestable",
+          "prevention": "Asegurar que las aletas estén bien pegadas y sean simétricas"
+        },
+        {
+          "mistake": "Usar demasiada presión",
+          "consequence": "Riesgo de explosión de la botella",
+          "prevention": "No exceder 60 PSI y usar siempre botellas en buen estado"
+        },
+        {
+          "mistake": "Corcho demasiado flojo o demasiado apretado",
+          "consequence": "Lanzamiento prematuro o el cohete no se lanza",
+          "prevention": "Ajustar el tamaño del corcho para que entre con firmeza pero se suelte con presión"
+        }
+      ]
+    },
+    "cleanup": {
+      "steps": [
+        "Recoger el cohete y todos los materiales",
+        "Verificar que no haya fragmentos de plástico en el área",
+        "Secar la botella si se va a reutilizar",
+        "Guardar el equipo de lanzamiento de forma segura",
+        "Revisar el cohete para detectar daños antes del próximo uso"
+      ],
+      "wasteDisposal": [
+        {
+          "material": "Botella de plástico dañada",
+          "method": "Reciclar en contenedor de plásticos",
+          "environmentalImpact": "El PET es reciclable"
+        }
+      ],
+      "estimatedTime": "10 minutos"
+    }
+  },
+  "science": {
+    "concepts": [
+      {
+        "name": "Tercera Ley de Newton",
+        "description": "Por cada acción hay una reacción igual y opuesta. El agua y aire expulsados hacia abajo empujan el cohete hacia arriba.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Presión",
+        "description": "Fuerza aplicada sobre un área. El aire comprimido ejerce presión sobre el agua, forzándola a salir.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Propulsión por reacción",
+        "description": "Método de propulsión donde la expulsión de masa en una dirección produce movimiento en la dirección opuesta.",
+        "gradeLevel": "high"
+      },
+      {
+        "name": "Aerodinámica",
+        "description": "Estudio del movimiento del aire y su interacción con objetos sólidos. Las aletas estabilizan el vuelo.",
+        "gradeLevel": "middle"
+      },
+      {
+        "name": "Centro de masa y centro de presión",
+        "description": "Para un vuelo estable, el centro de masa debe estar delante del centro de presión.",
+        "gradeLevel": "high"
+      }
+    ],
+    "explanation": {
+      "simple": "El cohete funciona como un globo que sueltas sin atar: el aire (y agua) salen por un lado y empujan el cohete hacia el otro lado. Esto es la Tercera Ley de Newton: por cada acción hay una reacción opuesta. El aire comprimido empuja el agua hacia abajo con mucha fuerza, y eso empuja el cohete hacia arriba. Las aletas ayudan a que vuele derecho, como las plumas de una flecha.",
+      "detailed": "El cohete de agua es un ejemplo perfecto de propulsión por reacción. Cuando bombeamos aire en la botella, aumentamos la presión dentro. Esta presión empuja el agua hacia la única salida disponible (la boca de la botella). Según la Tercera Ley de Newton, cuando el agua sale hacia abajo a alta velocidad, ejerce una fuerza igual y opuesta hacia arriba sobre la botella, lanzándola al aire. La cantidad óptima de agua (aproximadamente 1/3) permite que haya suficiente masa para expulsar pero también suficiente espacio para el aire comprimido. Las aletas proporcionan estabilidad aerodinámica al crear resistencia en la parte trasera, manteniendo el cohete apuntando en la dirección del movimiento.",
+      "technical": "El cohete de agua opera bajo los principios de conservación del momento lineal y la ecuación de Tsiolkovsky. La fuerza de empuje (F) se calcula como F = ṁv_e, donde ṁ es la tasa de expulsión de masa y v_e es la velocidad de escape del propelente. La presión interna (P) está relacionada con la velocidad de escape por la ecuación de Bernoulli: v_e = √(2(P-P_atm)/ρ), donde ρ es la densidad del agua. La altura máxima alcanzada depende de la relación de masas (masa inicial/masa final), la velocidad de escape, y las pérdidas por resistencia del aire. La estabilidad del vuelo requiere que el centro de presión (CP) esté detrás del centro de gravedad (CG), lo que se logra con las aletas. El momento de inercia y la geometría de las aletas determinan la capacidad del cohete para resistir perturbaciones durante el vuelo."
+    },
+    "realWorldApplications": [
+      "Cohetes espaciales y lanzadores de satélites",
+      "Motores de propulsión a chorro en aviones",
+      "Sistemas de propulsión de naves espaciales",
+      "Extintores de incendios (propulsión por presión)",
+      "Sistemas de propulsión submarina",
+      "Turbinas de gas",
+      "Diseño de misiles y proyectiles",
+      "Sistemas de escape de emergencia en aeronaves"
+    ],
+    "vocabulary": [
+      {
+        "term": "Propulsión",
+        "definition": "Acción de impulsar o empujar algo hacia adelante"
+      },
+      {
+        "term": "Empuje",
+        "definition": "Fuerza que impulsa un cohete hacia adelante"
+      },
+      {
+        "term": "Propelente",
+        "definition": "Sustancia expulsada para crear empuje (en este caso, agua y aire)"
+      },
+      {
+        "term": "Aerodinámica",
+        "definition": "Estudio del movimiento del aire alrededor de objetos"
+      },
+      {
+        "term": "Trayectoria",
+        "definition": "Camino que sigue un objeto en movimiento"
+      },
+      {
+        "term": "Presión",
+        "definition": "Fuerza ejercida por unidad de área"
+      }
+    ]
+  },
+  "educational": {
+    "learningObjectives": [
+      "Comprender la Tercera Ley de Newton mediante experimentación práctica",
+      "Aprender sobre presión y su relación con la fuerza",
+      "Entender los principios básicos de propulsión por reacción",
+      "Desarrollar habilidades de diseño e ingeniería",
+      "Practicar el método científico mediante experimentación iterativa",
+      "Aprender sobre seguridad en experimentos de alta energía"
+    ],
+    "skills": [
+      "Diseño y construcción",
+      "Resolución de problemas de ingeniería",
+      "Medición y análisis de datos",
+      "Pensamiento crítico",
+      "Trabajo en equipo",
+      "Seguimiento de protocolos de seguridad",
+      "Optimización mediante iteración"
+    ],
+    "curriculum": {
+      "subjects": ["Física", "Ingeniería", "Matemáticas", "Tecnología"],
+      "grades": ["6-10"],
+      "standards": [
+        "Leyes de Newton",
+        "Presión y fuerza",
+        "Conservación del momento",
+        "Diseño de ingeniería",
+        "Método científico"
+      ]
+    },
+    "extensions": [
+      {
+        "title": "Optimización del diseño",
+        "description": "Experimenta con diferentes diseños de aletas, cantidades de agua y presiones para encontrar la configuración óptima",
+        "difficulty": "advanced"
+      },
+      {
+        "title": "Sistema de paracaídas",
+        "description": "Diseña e implementa un sistema de paracaídas para un descenso controlado",
+        "difficulty": "advanced"
+      },
+      {
+        "title": "Cohete de dos etapas",
+        "description": "Construye un cohete de dos etapas usando dos botellas",
+        "difficulty": "advanced"
+      },
+      {
+        "title": "Análisis de trayectoria",
+        "description": "Usa cámaras y software para analizar la trayectoria y calcular velocidades y aceleraciones",
+        "difficulty": "advanced"
+      }
+    ],
+    "assessmentQuestions": [
+      {
+        "question": "¿Por qué el cohete se mueve hacia arriba cuando el agua sale hacia abajo?",
+        "type": "open-ended",
+        "expectedAnswer": "Por la Tercera Ley de Newton: por cada acción hay una reacción igual y opuesta"
+      },
+      {
+        "question": "¿Por qué no es bueno llenar la botella completamente con agua?",
+        "type": "open-ended",
+        "expectedAnswer": "Porque se necesita espacio para el aire comprimido que empuja el agua hacia afuera"
+      },
+      {
+        "question": "¿Cuál es la función de las aletas en el cohete?",
+        "type": "open-ended",
+        "expectedAnswer": "Proporcionar estabilidad aerodinámica y mantener el cohete volando derecho"
+      },
+      {
+        "question": "¿Por qué es importante usar gafas de seguridad en este experimento?",
+        "type": "open-ended",
+        "expectedAnswer": "Para proteger los ojos de fragmentos si la botella explota o del impacto del cohete"
+      }
+    ]
+  },
+  "variations": [
+    {
+      "title": "Cohete de múltiples etapas",
+      "description": "Construye un cohete usando dos botellas para crear un sistema de dos etapas",
+      "difficultyChange": "harder",
+      "materialsNeeded": ["Botella adicional", "Sistema de separación"]
+    },
+    {
+      "title": "Competencia de altura",
+      "description": "Organiza una competencia para ver qué diseño alcanza mayor altura",
+      "difficultyChange": "none",
+      "materialsNeeded": ["Múltiples cohetes", "Sistema de medición"]
+    },
+    {
+      "title": "Cohete con paracaídas",
+      "description": "Añade un sistema de paracaídas para un descenso controlado",
+      "difficultyChange": "harder",
+      "materialsNeeded": ["Paracaídas", "Sistema de liberación"]
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "El cohete no se lanza",
+      "possibleCauses": [
+        "Corcho demasiado apretado",
+        "Presión insuficiente",
+        "Fuga de aire"
+      ],
+      "solutions": [
+        "Usar un corcho que ajuste menos",
+        "Aumentar la presión gradualmente",
+        "Verificar todas las conexiones y sellar fugas"
+      ]
+    },
+    {
+      "problem": "El cohete vuela de forma inestable",
+      "possibleCauses": [
+        "Aletas asimétricas o mal colocadas",
+        "Centro de gravedad incorrecto",
+        "Aletas demasiado pequeñas"
+      ],
+      "solutions": [
+        "Verificar que las aletas sean simétricas y estén bien alineadas",
+        "Añadir peso en la punta del cohete",
+        "Usar aletas más grandes"
+      ]
+    },
+    {
+      "problem": "El cohete no alcanza mucha altura",
+      "possibleCauses": [
+        "Demasiada o muy poca agua",
+        "Presión insuficiente",
+        "Cohete demasiado pesado",
+        "Fugas de aire"
+      ],
+      "solutions": [
+        "Experimentar con 1/3 de la capacidad de agua",
+        "Aumentar la presión (sin exceder 60 PSI)",
+        "Reducir el peso del cohete",
+        "Sellar todas las conexiones"
+      ]
+    }
+  ],
+  "resources": {
+    "videos": [],
+    "articles": [],
+    "books": [],
+    "websites": []
+  },
+  "metadata_extra": {
+    "featured": true,
+    "seasonal": false,
+    "indoor": false,
+    "outdoor": true,
+    "messy": true,
+    "noisy": false,
+    "adultParticipation": "required"
+  }
+}

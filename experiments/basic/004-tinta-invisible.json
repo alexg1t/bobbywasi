@@ -1,0 +1,106 @@
+{
+  "id": "basic-004",
+  "slug": "tinta-invisible",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Tinta Invisible con Limón",
+    "description": "Escribe mensajes secretos con jugo de limón que solo se revelan con calor. Aprende sobre oxidación y reacciones químicas.",
+    "level": "basic",
+    "safetyLevel": "green",
+    "duration": {"preparation": 5, "execution": 15, "cleanup": 5, "unit": "minutes"},
+    "ageRange": {"min": 7, "max": 12, "recommended": 9},
+    "subjects": ["chemistry"],
+    "keywords": ["oxidación", "ácido", "reacción química", "mensajes secretos"]
+  },
+  "safety": {
+    "level": "green",
+    "hazards": [],
+    "requiredPPE": [],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": ["No acercar demasiado al calor", "Supervisión al usar plancha o lámpara"],
+    "emergencyProcedures": ["Si el papel se quema, apagar inmediatamente"]
+  },
+  "materials": {
+    "home": [
+      {"name": "Papel blanco", "quantity": 3, "unit": "sheets"},
+      {"name": "Hisopo o palillo", "quantity": 1, "unit": "piece"},
+      {"name": "Tazón pequeño", "quantity": 1, "unit": "piece"}
+    ],
+    "supermarket": [
+      {"name": "Limón", "quantity": 1, "unit": "piece", "estimatedCost": 0.50, "currency": "USD"}
+    ],
+    "pharmacy": [],
+    "hardware": [],
+    "optional": [
+      {"name": "Plancha", "quantity": 1, "unit": "piece", "purpose": "Para revelar el mensaje"},
+      {"name": "Lámpara", "quantity": 1, "unit": "piece", "purpose": "Alternativa a la plancha"}
+    ],
+    "totalEstimatedCost": 0.50,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {"step": 1, "action": "Exprimir el limón en el tazón", "duration": 3},
+      {"step": 2, "action": "Preparar el papel y el hisopo", "duration": 2}
+    ],
+    "execution": [
+      {"step": 1, "action": "Mojar el hisopo en jugo de limón", "duration": 1},
+      {"step": 2, "action": "Escribir un mensaje en el papel", "details": "Escribir con el hisopo mojado en limón", "duration": 5},
+      {"step": 3, "action": "Dejar secar completamente", "details": "Esperar 5-10 minutos", "duration": 10},
+      {"step": 4, "action": "Revelar el mensaje", "details": "Calentar el papel con una plancha o lámpara hasta que aparezca el mensaje en marrón", "duration": 3, "safetyNote": "Supervisión de adulto al usar calor"}
+    ],
+    "cleanup": [
+      {"step": 1, "action": "Limpiar el área de trabajo", "duration": 3},
+      {"step": 2, "action": "Lavarse las manos", "duration": 2}
+    ]
+  },
+  "science": {
+    "principle": "Oxidación",
+    "explanation": "El jugo de limón contiene ácido cítrico que se oxida cuando se calienta. Esta oxidación hace que el ácido se vuelva marrón, revelando el mensaje invisible. Es similar a cómo una manzana se pone marrón cuando se expone al aire.",
+    "concepts": [
+      {"name": "Oxidación", "description": "Reacción química con el oxígeno"},
+      {"name": "Ácido", "description": "Sustancia con pH bajo"},
+      {"name": "Reacción química", "description": "Proceso que transforma sustancias"}
+    ],
+    "realWorldApplications": [
+      "Espionaje y mensajes secretos históricos",
+      "Detección de documentos falsificados",
+      "Arte y restauración de documentos antiguos"
+    ],
+    "furtherReading": [
+      {"title": "Historia de la tinta invisible", "url": "https://example.com/tinta-invisible", "type": "article"}
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Probar con otros jugos (naranja, manzana)",
+      "Usar leche en lugar de limón",
+      "Crear códigos secretos más complejos"
+    ],
+    "challenges": [
+      "¿Qué otros líquidos funcionan como tinta invisible?",
+      "¿Puedes crear un código secreto con símbolos?"
+    ],
+    "relatedExperiments": ["basic-001-volcan-bicarbonato"]
+  },
+  "media": {
+    "thumbnail": "images/basic/tinta-invisible-thumbnail.jpg",
+    "gallery": ["images/basic/tinta-invisible-writing.jpg", "images/basic/tinta-invisible-revealed.jpg"]
+  },
+  "credits": {
+    "author": "IBM Bob",
+    "contributors": [],
+    "reviewedBy": ["Safety Team"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}

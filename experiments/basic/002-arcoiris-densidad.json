@@ -1,0 +1,255 @@
+{
+  "id": "basic-002",
+  "slug": "arcoiris-densidad",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Arcoíris de Densidad",
+    "description": "Crea un hermoso arcoíris líquido apilando líquidos de diferentes densidades. Aprende sobre densidad y flotación de forma visual y colorida.",
+    "level": "basic",
+    "safetyLevel": "green",
+    "duration": {
+      "preparation": 5,
+      "execution": 15,
+      "cleanup": 5,
+      "unit": "minutes"
+    },
+    "ageRange": {
+      "min": 6,
+      "max": 12,
+      "recommended": 8
+    },
+    "subjects": ["physics", "chemistry"],
+    "keywords": ["densidad", "flotación", "líquidos", "arcoíris", "capas"]
+  },
+  "safety": {
+    "level": "green",
+    "hazards": [],
+    "requiredPPE": [],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": [
+      "No ingerir los líquidos",
+      "Limpiar derrames inmediatamente para evitar resbalones"
+    ],
+    "emergencyProcedures": [
+      "Si se ingiere accidentalmente, beber agua y consultar a un adulto"
+    ]
+  },
+  "materials": {
+    "home": [
+      {
+        "name": "Vaso transparente alto",
+        "quantity": 1,
+        "unit": "piece",
+        "notes": "Debe ser transparente para ver las capas"
+      }
+    ],
+    "supermarket": [
+      {
+        "name": "Miel",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 2.00,
+        "currency": "USD"
+      },
+      {
+        "name": "Jarabe de maíz",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 1.50,
+        "currency": "USD"
+      },
+      {
+        "name": "Detergente líquido",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 0.50,
+        "currency": "USD"
+      },
+      {
+        "name": "Agua",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 0.00,
+        "currency": "USD"
+      },
+      {
+        "name": "Aceite vegetal",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 0.50,
+        "currency": "USD"
+      },
+      {
+        "name": "Alcohol isopropílico",
+        "quantity": 0.25,
+        "unit": "cup",
+        "estimatedCost": 1.00,
+        "currency": "USD"
+      },
+      {
+        "name": "Colorante alimentario",
+        "quantity": 1,
+        "unit": "set",
+        "estimatedCost": 2.00,
+        "currency": "USD"
+      }
+    ],
+    "pharmacy": [],
+    "hardware": [],
+    "optional": [],
+    "totalEstimatedCost": 7.50,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {
+        "step": 1,
+        "action": "Preparar el área de trabajo",
+        "duration": 2,
+        "safetyNote": "Trabajar sobre una superficie que pueda limpiarse fácilmente"
+      },
+      {
+        "step": 2,
+        "action": "Colorear los líquidos",
+        "details": "Agregar colorante a cada líquido (excepto miel) para crear el efecto arcoíris",
+        "duration": 3
+      }
+    ],
+    "execution": [
+      {
+        "step": 1,
+        "action": "Verter la miel",
+        "details": "Verter lentamente la miel en el fondo del vaso",
+        "duration": 2,
+        "safetyNote": "Verter despacio para evitar salpicaduras"
+      },
+      {
+        "step": 2,
+        "action": "Agregar el jarabe de maíz",
+        "details": "Verter cuidadosamente el jarabe sobre la miel, dejándolo resbalar por el lado del vaso",
+        "duration": 2
+      },
+      {
+        "step": 3,
+        "action": "Agregar el detergente",
+        "details": "Verter el detergente coloreado muy lentamente",
+        "duration": 2
+      },
+      {
+        "step": 4,
+        "action": "Agregar el agua",
+        "details": "Verter el agua coloreada con mucho cuidado",
+        "duration": 2
+      },
+      {
+        "step": 5,
+        "action": "Agregar el aceite",
+        "details": "Verter el aceite vegetal",
+        "duration": 2
+      },
+      {
+        "step": 6,
+        "action": "Agregar el alcohol",
+        "details": "Finalmente, verter el alcohol coloreado en la capa superior",
+        "duration": 2
+      },
+      {
+        "step": 7,
+        "action": "Observar las capas",
+        "details": "Observar cómo los líquidos se mantienen separados en capas debido a sus diferentes densidades",
+        "duration": 3
+      }
+    ],
+    "cleanup": [
+      {
+        "step": 1,
+        "action": "Desechar los líquidos",
+        "details": "Verter cuidadosamente en el fregadero con agua corriente",
+        "duration": 2
+      },
+      {
+        "step": 2,
+        "action": "Lavar el vaso",
+        "duration": 2
+      },
+      {
+        "step": 3,
+        "action": "Lavarse las manos",
+        "duration": 1
+      }
+    ]
+  },
+  "science": {
+    "principle": "Densidad y Flotación",
+    "explanation": "La densidad es la cantidad de masa en un volumen determinado. Los líquidos con mayor densidad se hunden, mientras que los menos densos flotan. La miel es el líquido más denso y se queda en el fondo, mientras que el alcohol es el menos denso y flota en la parte superior. Cada líquido mantiene su posición según su densidad relativa.",
+    "concepts": [
+      {
+        "name": "Densidad",
+        "description": "Relación entre la masa y el volumen de una sustancia"
+      },
+      {
+        "name": "Flotación",
+        "description": "Capacidad de un objeto o líquido de mantenerse sobre otro más denso"
+      },
+      {
+        "name": "Inmiscibilidad",
+        "description": "Propiedad de algunos líquidos de no mezclarse entre sí"
+      }
+    ],
+    "realWorldApplications": [
+      "Separación de petróleo y agua en derrames",
+      "Funcionamiento de lámparas de lava",
+      "Estratificación en océanos y lagos",
+      "Producción de bebidas en capas (cócteles)",
+      "Separación de sustancias en laboratorios"
+    ],
+    "furtherReading": [
+      {
+        "title": "¿Qué es la densidad?",
+        "url": "https://example.com/densidad",
+        "type": "article"
+      }
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Probar con diferentes líquidos caseros",
+      "Agregar objetos pequeños para ver en qué capa flotan",
+      "Crear un arcoíris con menos capas",
+      "Experimentar con diferentes temperaturas"
+    ],
+    "challenges": [
+      "¿Puedes predecir dónde flotará un objeto antes de agregarlo?",
+      "¿Qué pasa si agitas el vaso?",
+      "¿Puedes ordenar otros líquidos por densidad?"
+    ],
+    "relatedExperiments": [
+      "basic-001-volcan-bicarbonato",
+      "basic-003-huevo-flotante"
+    ]
+  },
+  "media": {
+    "thumbnail": "images/basic/arcoiris-densidad-thumbnail.jpg",
+    "gallery": [
+      "images/basic/arcoiris-densidad-materials.jpg",
+      "images/basic/arcoiris-densidad-layers.jpg",
+      "images/basic/arcoiris-densidad-result.jpg"
+    ]
+  },
+  "credits": {
+    "author": "IBM Bob",
+    "contributors": [],
+    "reviewedBy": ["Safety Team"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}

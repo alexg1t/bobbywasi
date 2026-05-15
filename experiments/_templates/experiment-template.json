@@ -1,0 +1,184 @@
+{
+  "id": "level-###",
+  "slug": "experiment-slug",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Título del Experimento",
+    "description": "Descripción breve y atractiva del experimento (20-500 caracteres)",
+    "level": "basic|intermediate|advanced",
+    "safetyLevel": "green|yellow|red",
+    "duration": {
+      "preparation": 10,
+      "execution": 20,
+      "cleanup": 5,
+      "unit": "minutes"
+    },
+    "ageRange": {
+      "min": 6,
+      "max": 12,
+      "recommended": 8
+    },
+    "subjects": ["physics", "chemistry", "biology", "engineering"],
+    "keywords": ["keyword1", "keyword2", "keyword3"]
+  },
+  "safety": {
+    "level": "green|yellow|red",
+    "hazards": [
+      {
+        "tag": "chemical_reaction|electrical_circuit|high_temperature|sharp_objects|fire_risk|toxic_materials|pressure_risk|biological_hazard",
+        "severity": "low|medium|high",
+        "description": "Descripción específica del riesgo"
+      }
+    ],
+    "requiredPPE": ["safety_goggles", "gloves", "lab_coat", "mask", "closed_shoes", "apron"],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": [
+      "Advertencia específica 1",
+      "Advertencia específica 2"
+    ],
+    "emergencyProcedures": [
+      "Procedimiento de emergencia 1",
+      "Procedimiento de emergencia 2"
+    ]
+  },
+  "materials": {
+    "home": [
+      {
+        "name": "Nombre del material",
+        "quantity": 1,
+        "unit": "piece|cup|tablespoon|meter|liter",
+        "alternatives": ["Alternativa 1", "Alternativa 2"],
+        "notes": "Notas adicionales sobre el material"
+      }
+    ],
+    "supermarket": [
+      {
+        "name": "Nombre del material",
+        "quantity": 1,
+        "unit": "piece|cup|tablespoon|meter|liter",
+        "estimatedCost": 2.50,
+        "currency": "USD"
+      }
+    ],
+    "pharmacy": [],
+    "hardware": [
+      {
+        "name": "Nombre del material",
+        "quantity": 1,
+        "unit": "piece|meter",
+        "estimatedCost": 3.00,
+        "currency": "USD",
+        "specifications": "Especificaciones técnicas si aplica"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Material opcional",
+        "quantity": 1,
+        "unit": "piece",
+        "purpose": "Para qué sirve este material opcional"
+      }
+    ],
+    "totalEstimatedCost": 5.50,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {
+        "step": 1,
+        "action": "Acción a realizar",
+        "duration": 2,
+        "safetyNote": "Nota de seguridad si aplica"
+      }
+    ],
+    "execution": [
+      {
+        "step": 1,
+        "action": "Acción principal del experimento",
+        "details": "Detalles adicionales sobre cómo realizar esta acción",
+        "duration": 5,
+        "safetyNote": "⚠️ CRÍTICO: Nota de seguridad importante",
+        "hazardTags": ["electrical_circuit"],
+        "criticalStep": true,
+        "image": "images/level/experiment-step1.jpg"
+      }
+    ],
+    "cleanup": [
+      {
+        "step": 1,
+        "action": "Acción de limpieza",
+        "duration": 2,
+        "safetyNote": "Nota de seguridad para la limpieza"
+      }
+    ]
+  },
+  "science": {
+    "principle": "Principio científico principal",
+    "explanation": "Explicación detallada de la ciencia detrás del experimento (mínimo 50 caracteres)",
+    "concepts": [
+      {
+        "name": "Concepto 1",
+        "description": "Descripción del concepto"
+      },
+      {
+        "name": "Concepto 2",
+        "description": "Descripción del concepto"
+      }
+    ],
+    "realWorldApplications": [
+      "Aplicación en el mundo real 1",
+      "Aplicación en el mundo real 2",
+      "Aplicación en el mundo real 3"
+    ],
+    "furtherReading": [
+      {
+        "title": "Título del recurso",
+        "url": "https://example.com/resource",
+        "type": "article|video|book|website"
+      }
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Variación 1: Cómo modificar el experimento",
+      "Variación 2: Otra forma de hacerlo"
+    ],
+    "challenges": [
+      "Desafío 1: Pregunta o reto para el estudiante",
+      "Desafío 2: Otro desafío interesante"
+    ],
+    "relatedExperiments": [
+      "level-###-experiment-slug",
+      "level-###-another-experiment"
+    ]
+  },
+  "media": {
+    "thumbnail": "images/level/experiment-thumbnail.jpg",
+    "gallery": [
+      "images/level/experiment-materials.jpg",
+      "images/level/experiment-process.jpg",
+      "images/level/experiment-result.jpg"
+    ],
+    "video": {
+      "url": "https://youtube.com/watch?v=example",
+      "duration": 180,
+      "language": "es"
+    }
+  },
+  "credits": {
+    "author": "Nombre del Autor",
+    "contributors": ["Contribuidor 1", "Contribuidor 2"],
+    "reviewedBy": ["Safety Team", "Reviewer Name"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}

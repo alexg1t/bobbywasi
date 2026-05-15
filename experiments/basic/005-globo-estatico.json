@@ -1,0 +1,102 @@
+{
+  "id": "basic-005",
+  "slug": "globo-estatico",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Globo con Electricidad Estática",
+    "description": "Crea electricidad estática frotando un globo y observa cómo atrae objetos pequeños. Aprende sobre cargas eléctricas.",
+    "level": "basic",
+    "safetyLevel": "green",
+    "duration": {"preparation": 2, "execution": 10, "cleanup": 2, "unit": "minutes"},
+    "ageRange": {"min": 6, "max": 10, "recommended": 7},
+    "subjects": ["physics"],
+    "keywords": ["electricidad estática", "cargas eléctricas", "fricción"]
+  },
+  "safety": {
+    "level": "green",
+    "hazards": [],
+    "requiredPPE": [],
+    "supervisionRequired": false,
+    "adultGateRequired": false,
+    "warnings": ["No usar cerca de dispositivos electrónicos sensibles"],
+    "emergencyProcedures": []
+  },
+  "materials": {
+    "home": [
+      {"name": "Globo", "quantity": 2, "unit": "pieces"},
+      {"name": "Cabello seco o suéter de lana", "quantity": 1, "unit": "piece"},
+      {"name": "Trozos pequeños de papel", "quantity": 10, "unit": "pieces"},
+      {"name": "Sal y pimienta mezcladas", "quantity": 1, "unit": "tablespoon"}
+    ],
+    "supermarket": [],
+    "pharmacy": [],
+    "hardware": [],
+    "optional": [],
+    "totalEstimatedCost": 0.00,
+    "currency": "USD"
+  },
+  "instructions": {
+    "preparation": [
+      {"step": 1, "action": "Inflar el globo", "duration": 1},
+      {"step": 2, "action": "Preparar los materiales pequeños en una superficie", "duration": 1}
+    ],
+    "execution": [
+      {"step": 1, "action": "Frotar el globo", "details": "Frotar vigorosamente el globo contra el cabello o suéter durante 10-15 segundos", "duration": 2},
+      {"step": 2, "action": "Acercar a los papeles", "details": "Observar cómo los papeles son atraídos al globo", "duration": 2},
+      {"step": 3, "action": "Probar con sal y pimienta", "details": "Acercar el globo cargado a la mezcla y ver cómo la pimienta salta primero", "duration": 3},
+      {"step": 4, "action": "Pegar el globo a la pared", "details": "El globo cargado se pegará a la pared", "duration": 3}
+    ],
+    "cleanup": [
+      {"step": 1, "action": "Recoger los materiales", "duration": 2}
+    ]
+  },
+  "science": {
+    "principle": "Electricidad Estática",
+    "explanation": "Al frotar el globo, los electrones se transfieren del cabello al globo, dándole una carga negativa. Los objetos con cargas opuestas se atraen, por eso el globo atrae papeles y se pega a la pared. La pimienta es más ligera que la sal, por eso salta primero.",
+    "concepts": [
+      {"name": "Carga eléctrica", "description": "Propiedad de la materia que causa fuerzas eléctricas"},
+      {"name": "Electrones", "description": "Partículas con carga negativa"},
+      {"name": "Atracción electrostática", "description": "Fuerza entre cargas opuestas"}
+    ],
+    "realWorldApplications": [
+      "Rayos en tormentas",
+      "Funcionamiento de fotocopiadoras",
+      "Pintura electrostática de autos",
+      "Filtros de aire electrostáticos"
+    ],
+    "furtherReading": [
+      {"title": "¿Qué es la electricidad estática?", "url": "https://example.com/estatica", "type": "article"}
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Probar con diferentes materiales para frotar",
+      "Intentar hacer que dos globos cargados se repelan",
+      "Crear un péndulo electrostático"
+    ],
+    "challenges": [
+      "¿Cuánto tiempo permanece cargado el globo?",
+      "¿Qué materiales funcionan mejor para cargar el globo?"
+    ],
+    "relatedExperiments": ["intermediate-002-circuito-simple"]
+  },
+  "media": {
+    "thumbnail": "images/basic/globo-estatico-thumbnail.jpg",
+    "gallery": ["images/basic/globo-estatico-hair.jpg", "images/basic/globo-estatico-paper.jpg"]
+  },
+  "credits": {
+    "author": "IBM Bob",
+    "contributors": [],
+    "reviewedBy": ["Safety Team"],
+    "lastReviewed": "2026-05-15",
+    "version": "1.0.0"
+  },
+  "tracking": {
+    "created": "2026-05-15T00:00:00Z",
+    "updated": "2026-05-15T00:00:00Z",
+    "views": 0,
+    "completions": 0,
+    "rating": 0,
+    "difficulty_feedback": []
+  }
+}
