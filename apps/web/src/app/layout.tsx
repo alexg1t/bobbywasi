@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Baloo_2 } from 'next/font/google'
 import './globals.css'
 import NatureParticles from '@/components/NatureParticles'
+import BobbyMascot from '@/components/BobbyMascot'
 
 const baloo = Baloo_2({
   subsets: ['latin'],
@@ -30,7 +31,7 @@ export default function RootLayout({
             <div className="container mx-auto px-4 py-6 relative z-10">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
-                  <div className="text-5xl animate-bounce">🔬</div>
+                  <BobbyMascot size="small" animated={true} />
                   <div>
                     <h1 className="text-4xl font-bold text-white drop-shadow-lg" style={{ fontFamily: 'var(--font-baloo)' }}>
                       BobbyWasi
@@ -76,9 +77,12 @@ export default function RootLayout({
             <div className="container mx-auto px-4 relative z-10">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold mb-3" style={{ fontFamily: 'var(--font-baloo)' }}>
-                    🌿 BobbyWasi
-                  </h3>
+                  <div className="flex items-center space-x-2 mb-3">
+                    <BobbyMascot size="small" animated={false} />
+                    <h3 className="text-2xl font-bold" style={{ fontFamily: 'var(--font-baloo)' }}>
+                      BobbyWasi
+                    </h3>
+                  </div>
                   <p className="text-white/80 text-sm">
                     ¡Inspirando a la próxima generación de científicos curiosos con la naturaleza!
                   </p>
