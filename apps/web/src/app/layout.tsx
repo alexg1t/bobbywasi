@@ -56,6 +56,13 @@ export default function RootLayout({
                   >
                     🧪 Experimentos
                   </a>
+                  <a
+                    href="/community"
+                    className="text-white hover:text-yellow-200 font-bold text-lg transition-all duration-200 hover:scale-110 transform backdrop-blur-sm bg-white/10 px-4 py-2 rounded-full"
+                    style={{ fontFamily: 'var(--font-baloo)' }}
+                  >
+                    🌍 Comunidad
+                  </a>
                 </nav>
               </div>
             </div>
