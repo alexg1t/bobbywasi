@@ -1,0 +1,180 @@
+{
+  "id": "intermediate-002",
+  "metadata": {
+    "title": "Circuito Eléctrico Simple",
+    "subtitle": "Construye tu primer circuito con LED",
+    "description": "Aprende los fundamentos de la electricidad construyendo un circuito simple que enciende un LED. Descubre cómo fluye la corriente eléctrica y los componentes básicos de un circuito.",
+    "difficulty": "intermediate",
+    "estimatedTime": "20-30 minutos",
+    "ageRange": {
+      "min": 8,
+      "max": 14,
+      "recommended": 10
+    },
+    "category": "physics",
+    "tags": ["electricidad", "circuitos", "LED", "física", "electrónica"],
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15",
+    "author": "BobbyWasi Team",
+    "language": "es"
+  },
+  "safety": {
+    "level": "yellow",
+    "requiresAdultSupervision": true,
+    "hazards": ["electrical_shock"],
+    "ppe": [],
+    "safetyNotes": [
+      "Usar SOLO pilas de 9V o menos - NUNCA conectar a la corriente eléctrica",
+      "No tocar los cables mientras el circuito está conectado",
+      "Si el LED o los cables se calientan, desconectar inmediatamente",
+      "Supervisión de un adulto recomendada"
+    ]
+  },
+  "materials": {
+    "required": [
+      {
+        "name": "Pila de 9V",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Pila alcalina de 9 voltios",
+        "source": "supermarket"
+      },
+      {
+        "name": "LED (diodo emisor de luz)",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "LED de 5mm, cualquier color",
+        "source": "hardware_store"
+      },
+      {
+        "name": "Resistencia de 330 ohmios",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Resistencia de 1/4 watt, 330Ω",
+        "source": "hardware_store"
+      },
+      {
+        "name": "Cables con pinzas cocodrilo",
+        "quantity": "3",
+        "unit": "unidades",
+        "specifications": "Cables de prueba con pinzas",
+        "source": "hardware_store"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Protoboard",
+        "purpose": "Para hacer conexiones más fáciles"
+      },
+      {
+        "name": "Interruptor",
+        "purpose": "Para encender y apagar el circuito"
+      }
+    ]
+  },
+  "instructions": {
+    "preparation": {
+      "steps": [
+        "Reunir todos los materiales en un área de trabajo seca",
+        "Identificar el polo positivo (pata larga) y negativo (pata corta) del LED",
+        "Verificar que la pila esté en buen estado",
+        "Leer todas las instrucciones de seguridad"
+      ]
+    },
+    "execution": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identificar los componentes",
+          "description": "El LED tiene dos patas: la larga es el positivo (+) y la corta es el negativo (-). La resistencia no tiene polaridad.",
+          "duration": "2 minutos"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conectar la resistencia al LED",
+          "description": "Conecta una pata de la resistencia a la pata larga (positiva) del LED usando un cable con pinza cocodrilo.",
+          "duration": "2 minutos"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Conectar al polo positivo",
+          "description": "Conecta el otro extremo de la resistencia al polo positivo (+) de la pila de 9V.",
+          "duration": "2 minutos"
+        },
+        {
+          "stepNumber": 4,
+          "title": "Completar el circuito",
+          "description": "Conecta la pata corta (negativa) del LED al polo negativo (-) de la pila. ¡El LED debería encenderse!",
+          "duration": "2 minutos",
+          "warnings": ["Si el LED no enciende, verifica las conexiones y la polaridad"]
+        },
+        {
+          "stepNumber": 5,
+          "title": "Experimentar",
+          "description": "Desconecta y reconecta el circuito. Observa cómo el LED se apaga y enciende. Intenta invertir la polaridad del LED para ver qué pasa.",
+          "duration": "5 minutos"
+        }
+      ]
+    },
+    "cleanup": {
+      "steps": [
+        "Desconectar la pila",
+        "Guardar los componentes en un lugar seco",
+        "Organizar los cables"
+      ]
+    }
+  },
+  "science": {
+    "principle": "Circuito Eléctrico Básico",
+    "explanation": {
+      "simple": "Un circuito eléctrico es como un camino circular por donde viajan los electrones. La pila empuja los electrones, la resistencia controla cuántos pasan, y el LED convierte esa energía en luz. Si el camino se rompe, los electrones no pueden fluir y el LED se apaga.",
+      "detailed": "En un circuito eléctrico, la corriente fluye desde el polo positivo de la pila, pasa por la resistencia (que limita la corriente para proteger el LED), luego por el LED (que emite luz cuando los electrones pasan por él), y regresa al polo negativo de la pila. El LED solo funciona en una dirección porque es un diodo, por eso es importante conectar el positivo al positivo y el negativo al negativo.",
+      "technical": "El circuito opera bajo la Ley de Ohm (V=IR). La pila de 9V proporciona una diferencia de potencial. La resistencia de 330Ω limita la corriente a aproximadamente 20mA (I=V/R=9V/330Ω≈27mA), que es seguro para un LED estándar. El LED tiene una caída de voltaje de ~2V y convierte la energía eléctrica en fotones mediante electroluminiscencia en la unión p-n del semiconductor."
+    },
+    "concepts": [
+      {
+        "name": "Circuito cerrado",
+        "description": "Camino completo por donde fluye la corriente eléctrica"
+      },
+      {
+        "name": "Polaridad",
+        "description": "Dirección del flujo de corriente (positivo a negativo)"
+      },
+      {
+        "name": "Resistencia",
+        "description": "Componente que limita el flujo de corriente"
+      },
+      {
+        "name": "LED (Diodo)",
+        "description": "Componente que emite luz y solo permite corriente en una dirección"
+      }
+    ],
+    "realWorldApplications": [
+      "Linternas y luces LED",
+      "Pantallas de dispositivos electrónicos",
+      "Señales de tráfico",
+      "Iluminación de hogares y edificios",
+      "Indicadores en electrodomésticos"
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Usa LEDs de diferentes colores",
+      "Agrega un interruptor para controlar el encendido",
+      "Conecta varios LEDs en serie",
+      "Prueba con diferentes valores de resistencia"
+    ],
+    "challenges": [
+      "Diseña un circuito con 3 LEDs en paralelo",
+      "Crea un circuito que parpadee usando un capacitor",
+      "Construye un semáforo con LEDs rojo, amarillo y verde"
+    ]
+  },
+  "metadata_extra": {
+    "featured": true,
+    "indoor": true,
+    "outdoor": false,
+    "messy": false,
+    "adultParticipation": "recommended"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "intermediate-003",
+  "metadata": {
+    "title": "Motor Eléctrico Casero",
+    "subtitle": "Convierte electricidad en movimiento",
+    "description": "Construye un motor eléctrico simple usando una pila, alambre y un imán. Descubre cómo la electricidad y el magnetismo trabajan juntos para crear movimiento rotatorio.",
+    "difficulty": "intermediate",
+    "estimatedTime": "30-40 minutos",
+    "ageRange": {
+      "min": 9,
+      "max": 15,
+      "recommended": 11
+    },
+    "category": "physics",
+    "tags": ["electromagnetismo", "motores", "energía", "física", "movimiento"],
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15",
+    "author": "BobbyWasi Team",
+    "language": "es"
+  },
+  "safety": {
+    "level": "yellow",
+    "requiresAdultSupervision": true,
+    "hazards": ["electrical_shock", "sharp_objects"],
+    "ppe": [],
+    "safetyNotes": [
+      "Usar SOLO pilas - NUNCA corriente eléctrica del hogar",
+      "Tener cuidado con el alambre de cobre que puede tener puntas afiladas",
+      "El motor puede girar rápido - mantener dedos alejados",
+      "Supervisión de un adulto recomendada"
+    ]
+  },
+  "materials": {
+    "required": [
+      {
+        "name": "Pila AA",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Pila alcalina de 1.5V",
+        "source": "supermarket"
+      },
+      {
+        "name": "Alambre de cobre esmaltado",
+        "quantity": "1 metro",
+        "unit": "metro",
+        "specifications": "Alambre delgado (calibre 24-28)",
+        "source": "hardware_store"
+      },
+      {
+        "name": "Imán de neodimio",
+        "quantity": "1",
+        "unit": "unidad",
+        "specifications": "Imán pequeño y fuerte (1-2 cm)",
+        "source": "hardware_store"
+      },
+      {
+        "name": "Clips metálicos grandes",
+        "quantity": "2",
+        "unit": "unidades",
+        "specifications": "Clips de papel grandes",
+        "source": "home"
+      },
+      {
+        "name": "Cinta adhesiva",
+        "quantity": "20 cm",
+        "unit": "centímetros",
+        "specifications": "Cinta aislante o adhesiva",
+        "source": "home"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Papel de lija",
+        "purpose": "Para quitar el esmalte del alambre"
+      },
+      {
+        "name": "Base de madera",
+        "purpose": "Para montar el motor de forma estable"
+      }
+    ]
+  },
+  "instructions": {
+    "preparation": {
+      "steps": [
+        "Reunir todos los materiales",
+        "Enderezar los clips para usarlos como soportes",
+        "Preparar el área de trabajo",
+        "Leer todas las instrucciones de seguridad"
+      ]
+    },
+    "execution": {
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Crear la bobina",
+          "description": "Enrolla el alambre de cobre alrededor de la pila unas 10-15 vueltas para formar una bobina circular. Deja unos 5 cm de alambre libre en cada extremo. Retira la bobina de la pila cuidadosamente.",
+          "duration": "5 minutos",
+          "warnings": ["Mantén las vueltas juntas y ordenadas"]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Asegurar la bobina",
+          "description": "Pasa los extremos del alambre por la bobina para mantenerla unida. La bobina debe quedar como un disco plano con dos ejes saliendo de lados opuestos.",
+          "duration": "3 minutos"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Preparar los ejes",
+          "description": "Con papel de lija o un cuchillo (con ayuda de un adulto), raspa TODO el esmalte de UN lado de cada eje. Del otro lado, raspa solo la MITAD del esmalte (una línea a lo largo). Esto es crucial para que el motor funcione.",
+          "duration": "5 minutos",
+          "warnings": ["Pedir ayuda a un adulto para usar herramientas cortantes"]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Crear los soportes",
+          "description": "Dobla los clips en forma de U o gancho para que sostengan la bobina. Los clips deben permitir que la bobina gire libremente.",
+          "duration": "5 minutos"
+        },
+        {
+          "stepNumber": 5,
+          "title": "Montar el sistema",
+          "description": "Pega los clips a los extremos de la pila con cinta adhesiva. Coloca la bobina sobre los clips de modo que los ejes descansen en los ganchos y la bobina pueda girar libremente.",
+          "duration": "5 minutos"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Agregar el imán",
+          "description": "Coloca el imán de neodimio directamente sobre el polo positivo de la pila, justo debajo de la bobina (a 1-2 mm de distancia).",
+          "duration": "2 minutos"
+        },
+        {
+          "stepNumber": 7,
+          "title": "Iniciar el motor",
+          "description": "Dale un pequeño empujón a la bobina para que empiece a girar. Si todo está bien conectado, ¡la bobina debería seguir girando sola! Si no funciona, ajusta la posición del imán o verifica que los ejes estén bien lijados.",
+          "duration": "5 minutos",
+          "warnings": ["La bobina puede girar muy rápido - no tocar mientras gira"]
+        }
+      ]
+    },
+    "cleanup": {
+      "steps": [
+        "Desconectar la pila",
+        "Guardar el imán lejos de dispositivos electrónicos",
+        "Guardar los componentes para futuros experimentos"
+      ]
+    }
+  },
+  "science": {
+    "principle": "Electromagnetismo y Fuerza de Lorentz",
+    "explanation": {
+      "simple": "Cuando la electricidad fluye por el alambre, crea un campo magnético. Este campo magnético interactúa con el imán permanente, creando una fuerza que hace girar la bobina. Al lijar solo la mitad del esmalte, la corriente se enciende y apaga cada media vuelta, manteniendo el motor girando en la misma dirección.",
+      "detailed": "El motor funciona por la interacción entre el campo magnético del imán y el campo magnético creado por la corriente en la bobina. Cuando la corriente fluye, la bobina se convierte en un electroimán con polos norte y sur. Estos polos son atraídos y repelidos por el imán permanente, causando rotación. Al lijar solo la mitad del esmalte en un eje, la corriente se interrumpe cada media vuelta, permitiendo que el momento angular mantenga la bobina girando y evitando que se detenga en una posición de equilibrio.",
+      "technical": "El motor opera bajo el principio de la Fuerza de Lorentz (F = qv × B). La corriente en la bobina crea un campo magnético según la ley de Ampère. La interacción entre este campo y el campo del imán permanente genera un torque (τ = μ × B) que causa rotación. El lijado asimétrico del esmalte actúa como un conmutador primitivo, invirtiendo la dirección de la corriente cada 180°, lo que mantiene el torque en la misma dirección rotacional. La inercia rotacional de la bobina mantiene el movimiento durante la fase sin corriente."
+    },
+    "concepts": [
+      {
+        "name": "Electromagnetismo",
+        "description": "Relación entre electricidad y magnetismo"
+      },
+      {
+        "name": "Campo magnético",
+        "description": "Región donde se ejercen fuerzas magnéticas"
+      },
+      {
+        "name": "Fuerza de Lorentz",
+        "description": "Fuerza sobre una carga en movimiento en un campo magnético"
+      },
+      {
+        "name": "Conmutador",
+        "description": "Dispositivo que invierte la dirección de la corriente"
+      },
+      {
+        "name": "Momento angular",
+        "description": "Cantidad de movimiento rotacional"
+      }
+    ],
+    "realWorldApplications": [
+      "Motores eléctricos en electrodomésticos",
+      "Ventiladores y aires acondicionados",
+      "Motores de vehículos eléctricos",
+      "Herramientas eléctricas (taladros, licuadoras)",
+      "Discos duros de computadoras",
+      "Juguetes con motor"
+    ]
+  },
+  "extensions": {
+    "variations": [
+      "Usa más vueltas de alambre para un motor más potente",
+      "Prueba con imanes de diferentes tamaños",
+      "Construye un soporte más estable con madera",
+      "Agrega una hélice para crear un ventilador"
+    ],
+    "challenges": [
+      "Mide la velocidad de rotación (RPM) del motor",
+      "Construye un motor con dos bobinas",
+      "Diseña un sistema de engranajes para cambiar la velocidad",
+      "Crea un generador invirtiendo el proceso (gira la bobina manualmente)"
+    ]
+  },
+  "metadata_extra": {
+    "featured": true,
+    "indoor": true,
+    "outdoor": false,
+    "messy": false,
+    "adultParticipation": "recommended"
+  }
+}
