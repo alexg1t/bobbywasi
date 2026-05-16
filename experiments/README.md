@@ -1,4 +1,4 @@
-# 🧪 STEM Home Lab - Experimentos
+# 🧪 BobbyWasi - Experimentos
 
 Este directorio contiene todos los experimentos de la plataforma STEM Home Lab. Cada experimento está documentado en formato JSON (para la aplicación) y Markdown (para lectura humana).
 

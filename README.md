@@ -1,4 +1,5 @@
-# 🔬 STEM Home Lab
+# 🔬 BobbyWasim - Plataforma de Experimentos Científicos en Casa
+
 
 > **Plataforma educativa para experimentos científicos seguros en casa**
 
@@ -51,7 +52,7 @@ Cada experimento incluye:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/stem-home-lab.git
+git clone https://github.com/alexg1t/bobbywasi.git
 cd stem-home-lab
 
 # Instalar dependencias
