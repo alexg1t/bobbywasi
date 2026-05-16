@@ -51,7 +51,7 @@ Cada experimento incluye:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/stem-home-lab.git
+git clone https://github.com/alexg1t/bobbywasi.git
 cd stem-home-lab
 
 # Instalar dependencias
