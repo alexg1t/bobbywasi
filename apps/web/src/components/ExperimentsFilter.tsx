@@ -140,13 +140,13 @@ export default function ExperimentsFilter({ experiments }: ExperimentsFilterProp
               <Link
                 key={experiment.id}
                 href={`/experiments/${experiment.id}` as any}
-                className={`block bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden border-4 ${borderColors[level as keyof typeof borderColors]} hover:scale-105 transform`}
+                className={`flex flex-col bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden border-4 ${borderColors[level as keyof typeof borderColors]} hover:scale-105 transform h-full`}
               >
                 <div className={`h-3 bg-gradient-to-r ${safetyColors[level as keyof typeof safetyColors]}`}></div>
                 
-                <div className="p-6">
+                <div className="p-6 flex-1 flex flex-col">
                   <div className="flex items-start justify-between mb-4">
-                    <h3 className="text-2xl font-bold text-gray-900 flex-1 leading-tight" style={{ fontFamily: 'var(--font-baloo)' }}>
+                    <h3 className="text-2xl font-bold text-gray-900 flex-1 leading-tight min-h-[3.5rem]" style={{ fontFamily: 'var(--font-baloo)' }}>
                       {experiment.metadata?.title || 'Sin título'}
                     </h3>
                   </div>
@@ -155,13 +155,15 @@ export default function ExperimentsFilter({ experiments }: ExperimentsFilterProp
                     <SafetyBadge level={level} size="sm" />
                   </div>
 
-                  {experiment.metadata?.subtitle && (
-                    <p className="text-emerald-600 text-base mb-3 font-bold">
-                      {experiment.metadata.subtitle}
-                    </p>
-                  )}
+                  <div className="min-h-[1.5rem] mb-3">
+                    {experiment.metadata?.subtitle && (
+                      <p className="text-emerald-600 text-base font-bold">
+                        {experiment.metadata.subtitle}
+                      </p>
+                    )}
+                  </div>
 
-                  <p className="text-gray-600 text-base mb-4 line-clamp-3">
+                  <p className="text-gray-600 text-base mb-4 line-clamp-3 min-h-[4.5rem]">
                     {experiment.metadata?.description || 'Sin descripción'}
                   </p>
 
@@ -178,21 +180,23 @@ export default function ExperimentsFilter({ experiments }: ExperimentsFilterProp
                     </div>
                   </div>
 
-                  {experiment.metadata?.tags && Array.isArray(experiment.metadata.tags) && experiment.metadata.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {experiment.metadata.tags.slice(0, 3).map((tag: string, index: number) => (
-                        <span
-                          key={`${tag}-${index}`}
-                          className="text-xs bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 px-3 py-1 rounded-full font-semibold"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                  <div className="flex flex-wrap gap-2 min-h-[2rem] mt-auto">
+                    {experiment.metadata?.tags && Array.isArray(experiment.metadata.tags) && experiment.metadata.tags.length > 0 && (
+                      <>
+                        {experiment.metadata.tags.slice(0, 3).map((tag: string, index: number) => (
+                          <span
+                            key={`${tag}-${index}`}
+                            className="text-xs bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 px-3 py-1 rounded-full font-semibold"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </>
+                    )}
+                  </div>
                 </div>
 
-                <div className={`bg-gradient-to-r ${safetyColors[level as keyof typeof safetyColors]} px-6 py-4 text-white font-bold text-lg flex items-center justify-between`} style={{ fontFamily: 'var(--font-baloo)' }}>
+                <div className={`bg-gradient-to-r ${safetyColors[level as keyof typeof safetyColors]} px-6 py-4 text-white font-bold text-lg flex items-center justify-between mt-auto`} style={{ fontFamily: 'var(--font-baloo)' }}>
                   <span>¡Ver Experimento!</span>
                   <span className="text-2xl">→</span>
                 </div>
