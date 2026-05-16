@@ -1,4 +1,4 @@
-# 🔬 BobbyWasim - Plataforma de Experimentos Científicos en Casa
+# 🔬 BobbyWasi - Plataforma de Experimentos Científicos en Casa
 
 
 > **Plataforma educativa para experimentos científicos seguros en casa**
