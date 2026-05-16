@@ -1,0 +1,168 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "experiments": "Experimentos",
+    "community": "Comunidad",
+    "about": "Acerca de"
+  },
+  "home": {
+    "hero": {
+      "greeting": "¡Hola! Soy Bobby, tu guía científico 🐧",
+      "title": "¡Bienvenido a BobbyWasi!",
+      "subtitle": "🌿 Tu compañero en aventuras científicas 🔬",
+      "experimentsCount": "🧪 {count} Experimentos",
+      "levelsCount": "🛡️ 3 Niveles",
+      "safetyBadge": "✅ 100% Seguro",
+      "cta": "🧪 ¡Ver Experimentos! 🌟"
+    },
+    "meetBobby": {
+      "title": "🐧 Conoce a Bobby",
+      "description": "¡Hola! Soy Bobby, un pingüino de Humboldt muy curioso que ama la ciencia. Vengo de las costas de Perú y me encanta explorar, experimentar y aprender cosas nuevas.",
+      "mission": {
+        "title": "Mi Misión",
+        "description": "Ayudar a niños a descubrir la ciencia de forma divertida y segura"
+      },
+      "values": {
+        "title": "Mis Valores",
+        "description": "Curiosidad, Seguridad y Diversión en cada experimento"
+      }
+    },
+    "howItWorks": {
+      "title": "🚀 ¿Cómo Funciona?",
+      "step1": {
+        "title": "Elige",
+        "description": "Selecciona tu experimento favorito de nuestra colección"
+      },
+      "step2": {
+        "title": "Reúne",
+        "description": "Consigue los materiales que ya tienes en casa"
+      },
+      "step3": {
+        "title": "Experimenta",
+        "description": "¡Sigue las instrucciones y aprende mientras te diviertes!"
+      }
+    },
+    "featured": {
+      "title": "⭐ Experimentos Destacados",
+      "volcano": {
+        "title": "Volcán de Bicarbonato",
+        "description": "¡El más popular! Crea erupciones espectaculares",
+        "time": "15 min",
+        "supervision": "Solo"
+      },
+      "circuit": {
+        "title": "Circuito Eléctrico",
+        "description": "¡El más educativo! Aprende sobre electricidad",
+        "time": "30 min",
+        "supervision": "Con ayuda"
+      },
+      "rocket": {
+        "title": "Cohete de Agua",
+        "description": "¡El más emocionante! Lanza tu propio cohete",
+        "time": "45 min",
+        "supervision": "Adulto"
+      }
+    },
+    "safety": {
+      "title": "🛡️ Sistema de Seguridad de 3 Niveles",
+      "green": {
+        "title": "Nivel Verde",
+        "description": "¡Totalmente seguro! Puedes hacerlo solo 😊",
+        "features": [
+          "✅ Sin supervisión adulta",
+          "✅ Materiales seguros",
+          "✅ Para edades 6-12 años"
+        ]
+      },
+      "yellow": {
+        "title": "Nivel Amarillo",
+        "description": "¡Mejor con ayuda! Pide a un adulto 👨‍👩‍👧‍👦",
+        "features": [
+          "⚠️ Supervisión sugerida",
+          "⚠️ Más cuidado necesario",
+          "⚠️ Para edades 8-14 años"
+        ]
+      },
+      "red": {
+        "title": "Nivel Rojo",
+        "description": "¡Adulto obligatorio! Seguridad primero 🛡️",
+        "features": [
+          "🚨 Supervisión OBLIGATORIA",
+          "🚨 Equipo de protección",
+          "🚨 Para edades 10-16 años"
+        ]
+      }
+    },
+    "features": {
+      "title": "✨ ¿Por qué BobbyWasi es Genial? ✨",
+      "learning": {
+        "title": "Aprende Jugando",
+        "description": "Cada experimento incluye explicaciones científicas divertidas y fáciles de entender"
+      },
+      "materials": {
+        "title": "Materiales Caseros",
+        "description": "Usa cosas que ya tienes en casa. ¡Nada complicado ni costoso!"
+      },
+      "safe": {
+        "title": "100% Seguro",
+        "description": "Cada experimento ha sido revisado para garantizar tu seguridad"
+      },
+      "stepByStep": {
+        "title": "Paso a Paso",
+        "description": "Instrucciones claras y detalladas para que no te pierdas"
+      }
+    },
+    "cta": {
+      "title": "🌿 ¿Listo para tu Primera Aventura Científica? 🔬",
+      "subtitle": "¡Bobby te está esperando con 10 experimentos increíbles!",
+      "button": "🧪 ¡Empezar Ahora! ✨"
+    }
+  },
+  "experiments": {
+    "title": "¡Experimentos Increíbles!",
+    "subtitle": "🌟 Descubre {count} experimentos científicos súper divertidos 🌟",
+    "noExperiments": {
+      "title": "¡Ups! No hay experimentos todavía",
+      "description": "Los experimentos se cargarán desde el directorio /experiments"
+    },
+    "filter": {
+      "title": "🔍 Filtrar por Nivel",
+      "all": "🌈 Todos ({count})",
+      "basic": "🟢 Básico ({count})",
+      "intermediate": "🟡 Intermedio ({count})",
+      "advanced": "🔴 Avanzado ({count})"
+    },
+    "showing": "Mostrando {count} experimento",
+    "showing_plural": "Mostrando {count} experimentos",
+    "noResults": {
+      "title": "¡Ups! No hay experimentos en este nivel todavía",
+      "description": "Prueba con otro nivel o vuelve pronto",
+      "button": "Ver Todos los Experimentos"
+    },
+    "card": {
+      "viewExperiment": "¡Ver Experimento!",
+      "time": "⏱️",
+      "age": "👥",
+      "years": "años"
+    },
+    "footer": {
+      "title": "🎉 ¡Más experimentos próximamente! 🎉",
+      "description": "Bobby está trabajando para traerte más diversión científica"
+    }
+  },
+  "safety": {
+    "level": {
+      "green": "Nivel Verde",
+      "yellow": "Nivel Amarillo",
+      "red": "Nivel Rojo"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "experiments": "Experiments",
+    "community": "Community",
+    "about": "About"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Hi! I'm Bobby, your science guide 🐧",
+      "title": "Welcome to BobbyWasi!",
+      "subtitle": "🌿 Your companion in scientific adventures 🔬",
+      "experimentsCount": "🧪 {count} Experiments",
+      "levelsCount": "🛡️ 3 Levels",
+      "safetyBadge": "✅ 100% Safe",
+      "cta": "🧪 View Experiments! 🌟"
+    },
+    "meetBobby": {
+      "title": "🐧 Meet Bobby",
+      "description": "Hi! I'm Bobby, a very curious Humboldt penguin who loves science. I come from the coasts of Peru and I love to explore, experiment and learn new things.",
+      "mission": {
+        "title": "My Mission",
+        "description": "Help children discover science in a fun and safe way"
+      },
+      "values": {
+        "title": "My Values",
+        "description": "Curiosity, Safety and Fun in every experiment"
+      }
+    },
+    "howItWorks": {
+      "title": "🚀 How Does It Work?",
+      "step1": {
+        "title": "Choose",
+        "description": "Select your favorite experiment from our collection"
+      },
+      "step2": {
+        "title": "Gather",
+        "description": "Get the materials you already have at home"
+      },
+      "step3": {
+        "title": "Experiment",
+        "description": "Follow the instructions and learn while having fun!"
+      }
+    },
+    "featured": {
+      "title": "⭐ Featured Experiments",
+      "volcano": {
+        "title": "Baking Soda Volcano",
+        "description": "The most popular! Create spectacular eruptions",
+        "time": "15 min",
+        "supervision": "Solo"
+      },
+      "circuit": {
+        "title": "Electric Circuit",
+        "description": "The most educational! Learn about electricity",
+        "time": "30 min",
+        "supervision": "With help"
+      },
+      "rocket": {
+        "title": "Water Rocket",
+        "description": "The most exciting! Launch your own rocket",
+        "time": "45 min",
+        "supervision": "Adult"
+      }
+    },
+    "safety": {
+      "title": "🛡️ 3-Level Safety System",
+      "green": {
+        "title": "Green Level",
+        "description": "Totally safe! You can do it alone 😊",
+        "features": [
+          "✅ No adult supervision",
+          "✅ Safe materials",
+          "✅ For ages 6-12"
+        ]
+      },
+      "yellow": {
+        "title": "Yellow Level",
+        "description": "Better with help! Ask an adult 👨‍👩‍👧‍👦",
+        "features": [
+          "⚠️ Suggested supervision",
+          "⚠️ More care needed",
+          "⚠️ For ages 8-14"
+        ]
+      },
+      "red": {
+        "title": "Red Level",
+        "description": "Adult required! Safety first 🛡️",
+        "features": [
+          "🚨 MANDATORY supervision",
+          "🚨 Protective equipment",
+          "🚨 For ages 10-16"
+        ]
+      }
+    },
+    "features": {
+      "title": "✨ Why is BobbyWasi Great? ✨",
+      "learning": {
+        "title": "Learn by Playing",
+        "description": "Each experiment includes fun and easy-to-understand scientific explanations"
+      },
+      "materials": {
+        "title": "Home Materials",
+        "description": "Use things you already have at home. Nothing complicated or expensive!"
+      },
+      "safe": {
+        "title": "100% Safe",
+        "description": "Each experiment has been reviewed to ensure your safety"
+      },
+      "stepByStep": {
+        "title": "Step by Step",
+        "description": "Clear and detailed instructions so you don't get lost"
+      }
+    },
+    "cta": {
+      "title": "🌿 Ready for Your First Scientific Adventure? 🔬",
+      "subtitle": "Bobby is waiting for you with 10 incredible experiments!",
+      "button": "🧪 Start Now! ✨"
+    }
+  },
+  "experiments": {
+    "title": "Incredible Experiments!",
+    "subtitle": "🌟 Discover {count} super fun science experiments 🌟",
+    "noExperiments": {
+      "title": "Oops! No experiments yet",
+      "description": "Experiments will be loaded from the /experiments directory"
+    },
+    "filter": {
+      "title": "🔍 Filter by Level",
+      "all": "🌈 All ({count})",
+      "basic": "🟢 Basic ({count})",
+      "intermediate": "🟡 Intermediate ({count})",
+      "advanced": "🔴 Advanced ({count})"
+    },
+    "showing": "Showing {count} experiment",
+    "showing_plural": "Showing {count} experiments",
+    "noResults": {
+      "title": "Oops! No experiments at this level yet",
+      "description": "Try another level or come back soon",
+      "button": "View All Experiments"
+    },
+    "card": {
+      "viewExperiment": "View Experiment!",
+      "time": "⏱️",
+      "age": "👥",
+      "years": "years"
+    },
+    "footer": {
+      "title": "🎉 More experiments coming soon! 🎉",
+      "description": "Bobby is working to bring you more scientific fun"
+    }
+  },
+  "safety": {
+    "level": {
+      "green": "Green Level",
+      "yellow": "Yellow Level",
+      "red": "Red Level"
+    }
+  }
+}
