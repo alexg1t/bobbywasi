@@ -55,9 +55,6 @@ Thumbs.db
 prisma/migrations/*_migration.sql
 
 # Documentation - Ignore all .md files except README.md and QUICK_START.md
-*.md
-!README.md
-!QUICK_START.md
-!experiments/README.md
+
 
 # Made with Bob
